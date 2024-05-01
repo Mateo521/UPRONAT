@@ -1,5 +1,5 @@
 {
-  "name": "angular-upronat",
+  "name": "upronat",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular-UPRONAT": "node dist/angular-upronat/server/server.mjs"
+    "serve:ssr:UPRONAT": "node dist/upronat/server/server.mjs"
   },
   "private": true,
   "dependencies": {
