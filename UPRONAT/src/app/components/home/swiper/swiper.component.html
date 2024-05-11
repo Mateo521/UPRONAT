@@ -1,0 +1,11 @@
+<div class="p-5 ">
+    <swiper class="cursor-grab active:cursor-grabbing" [config]="config">
+        <ng-template  swiperSlide *ngFor="let slide of slides">
+                <div class="card w-full h-full">
+                    <img class="w-full h-48 object-cover pointer-events-none" src="{{slide.imageUrl}}"
+                        alt="{{slide.description}}">
+                    <p>{{slide.description}}</p>
+                </div>
+        </ng-template>
+    </swiper>
+</div>
