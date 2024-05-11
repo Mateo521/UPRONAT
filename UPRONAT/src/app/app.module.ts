@@ -12,7 +12,7 @@ import { AboutComponent } from './components/home/about/about.component';
 import { ContactComponent } from './components/home/contact/contact.component';
 import { ServiciosComponent } from './components/home/servicios/servicios.component';
 import { BannerComponent } from './components/home/banner/banner.component';
-import { SwiperComponent } from './swiper/swiper.component';
+import { SwiperComponent } from './components/home/swiper/swiper.component';
 
 @NgModule({
   declarations: [
