@@ -17,13 +17,16 @@ let baseUrl: string = "/assets/img/"
 })
 export class SwiperComponent {
   config: SwiperOptions = {
-    slidesPerView: 2,
+    slidesPerView: 1,
     loop: true,
     spaceBetween: 35,
     pagination: { clickable:true },
     breakpoints:{
       768:{
         slidesPerView:3,
+        loop: true,
+        spaceBetween: 25,
+        pagination: { clickable:true },
       }
     }
   
