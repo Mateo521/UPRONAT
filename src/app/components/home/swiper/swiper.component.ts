@@ -19,7 +19,7 @@ export class SwiperComponent {
   config: SwiperOptions = {
     slidesPerView: 2,
     loop: true,
-    spaceBetween: 15,
+    spaceBetween: 35,
     pagination: { clickable:true },
     breakpoints:{
       768:{
