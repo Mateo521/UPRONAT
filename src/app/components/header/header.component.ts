@@ -12,10 +12,6 @@ let baseUrl: string = "/assets/Logos_Svg/"
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-
-
-
-
 export class HeaderComponent {
 
   imgs: logo[] = [

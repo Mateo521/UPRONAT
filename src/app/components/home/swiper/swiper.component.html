@@ -1,12 +1,9 @@
 <div class="flex justify-center"  data-aos="fade-up"
 data-aos-duration="1500" data-aos-delay="1500">
     <div class="md:p-5 p-2 max-w-screen-xl w-full">
-        <swiper class="cursor-grab active:cursor-grabbing" [config]="config">
+        <swiper [config]="config">
             <ng-template swiperSlide *ngFor="let slide of slides">
-
-
-
-                <div class="card w-full h-full  my-3 ">
+                <div class="card w-full h-full  my-3">
                     <img class="w-full h-40 md:h-80 rounded-t-xl object-cover pointer-events-none"
                         src="{{slide.imageUrl}}" alt="{{slide.description}}">
 

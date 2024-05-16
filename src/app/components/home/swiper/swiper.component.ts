@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
 import SwiperCore, { SwiperOptions } from 'swiper';
-import 'swiper/css/bundle';
 
 interface slide {
   imageUrl: string
@@ -21,6 +20,10 @@ export class SwiperComponent {
     loop: true,
     spaceBetween: 35,
     pagination: { clickable:true },
+    navigation: true,
+    preventClicksPropagation: false,
+    preventClicks: false,
+    grabCursor: true,
     breakpoints:{
       768:{
         slidesPerView:3,
