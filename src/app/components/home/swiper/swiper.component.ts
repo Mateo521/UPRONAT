@@ -7,7 +7,7 @@ interface slide {
   description: string
 }
 
-let baseUrl: string = "/assets/img/"
+let baseUrl: string = "assets/img/"
 
 @Component({
   selector: 'home-swiper',

@@ -5,7 +5,7 @@ interface logo {
   imageUrl: string
   description: string
 }
-let baseUrl: string = "/assets/Logos_Svg/"
+let baseUrl: string = "assets/Logos_Svg/"
 
 @Component({
   selector: 'app-header',
