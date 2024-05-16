@@ -4,7 +4,7 @@
 @tailwind utilities;
 @font-face {
     font-family: 'Tipografia';
-    src: url("/assets/fonts/Mulish/Mulish-VariableFont_wght.ttf") format("truetype");
+    src: url("assets/fonts/Mulish/Mulish-VariableFont_wght.ttf") format("truetype");
 }
 body{
     font-family: 'Tipografia';
