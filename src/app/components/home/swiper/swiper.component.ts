@@ -20,7 +20,7 @@ export class SwiperComponent {
     loop: true,
     spaceBetween: 35,
     pagination: { clickable:true },
-    navigation: true,
+    navigation: false,
     preventClicksPropagation: false,
     preventClicks: false,
     grabCursor: true,
