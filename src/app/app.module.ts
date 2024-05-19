@@ -1,7 +1,5 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
-import { SwiperModule } from 'swiper/angular';
-
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +13,7 @@ import { BannerComponent } from './components/home/banner/banner.component';
 import { SwiperComponent } from './components/home/swiper/swiper.component';
 
 @NgModule({
+  schemas:[CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -28,7 +27,7 @@ import { SwiperComponent } from './components/home/swiper/swiper.component';
   ],
   imports: [
     BrowserModule,
-    SwiperModule,
+
     AppRoutingModule
   ],
   providers: [
