@@ -1,0 +1,15 @@
+.swiper-button-prev, .swiper-button-next {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: white; /* Color de la flecha */
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Alto del botón */
+    border-radius: 50%; /* Botones redondeados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 20px; /* Tamaño de la flecha */
+  }
+  
