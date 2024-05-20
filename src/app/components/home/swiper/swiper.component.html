@@ -1,22 +1,20 @@
 <div class="flex justify-center " data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
     <div class="md:p-5 p-2  w-full">
 
-        <swiper-container autoplay="true" effect="coverflow" grab-cursor="true" pagination="true" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false" slides-per-view="3"
+        <swiper-container breakpoints='{"768": {"slidesPerView": 3,"navigation":true}  }'   autoplay="true" effect="coverflow" grab-cursor="true" pagination="true" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false" 
             centered-slides="false" coverflow-effect-rotate="0" coverflow-effect-stretch="0" navigation="true"
             coverflow-effect-depth="50" space-between="40">
-            <swiper-slide *ngFor="let slide of slides" class="px-5">
+            <swiper-slide *ngFor="let slide of slides" class="md:px-5">
                 <a href="#">
                     <div class="card w-full h-full  my-3">
                         <img class="w-full h-40 md:h-80 rounded-t-xl object-cover pointer-events-none"
                             src="{{slide.imageUrl}}" alt="{{slide.description}}">
 
-                        <div class="bg-gray-50 rounded-b-xl   min-h-72 h-full py-5 shadow-md">
+                        <div class="bg-gray-50 rounded-b-xl   min-h-full h-full py-5 shadow-md">
                             <div class="tarjeta px-7 py-5">
                                 <h2 class="md:text-2xl text-xl text-gray-700 pointer-events-none">{{slide.description}}
                                 </h2>
-                                <p class="py-5 pointer-events-none">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                    elit. Adipisci maiores
-                                    accusamus nisi eveniet doloribus sequi, obcaecati temporibus, asperiores.</p>
+                                <p class="py-5 pointer-events-none">{{slide.subtitle}}</p>
                             </div>
 
                         </div>
@@ -26,7 +24,30 @@
             </swiper-slide>
         </swiper-container>
 
+        <!--swiper-container class="md:hidden block" autoplay="true" effect="coverflow" grab-cursor="true" pagination="true" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false" slides-per-view="1"
+        centered-slides="false" coverflow-effect-rotate="0" coverflow-effect-stretch="0" navigation="true"
+        coverflow-effect-depth="50" space-between="40">
+        <swiper-slide *ngFor="let slide of slides" class="px-5">
+            <a href="#">
+                <div class="card w-full h-full  my-3">
+                    <img class="w-full h-40 md:h-80 rounded-t-xl object-cover pointer-events-none"
+                        src="{{slide.imageUrl}}" alt="{{slide.description}}">
 
+                    <div class="bg-gray-50 rounded-b-xl   min-h-72 h-full py-5 shadow-md">
+                        <div class="tarjeta px-7 py-5">
+                            <h2 class="md:text-2xl text-xl text-gray-700 pointer-events-none">{{slide.description}}
+                            </h2>
+                            <p class="py-5 pointer-events-none">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Adipisci maiores
+                                accusamus nisi eveniet doloribus sequi, obcaecati temporibus, asperiores.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </a>
+        </swiper-slide>
+    </swiper-container-->
 
 
 
