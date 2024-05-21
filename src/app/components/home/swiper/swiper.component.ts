@@ -10,7 +10,7 @@ interface slide {
   subtitle:string
 }
 
-let baseUrl: string = "assets/img/"
+let baseUrl: string = "assets/img/carrusel/"
 
 @Component({
   selector: 'home-swiper',
@@ -22,14 +22,14 @@ export class SwiperComponent {
 
 
   slides: slide[] = [
-    { imageUrl: baseUrl + 'img%20(8).jpeg', description: 'Extractos vegetales' , subtitle :'Preparamos extractos a partir de tu biomasa usando solventes verdes o fluidos supercríticos y los caracterizamos mediante tecnologías analíticas de alta complejidad    '},
-    { imageUrl: baseUrl + 'img%20(1).jpeg', description: 'Bioactivos para cosmética/APIS' , subtitle :'Extraemos, purificamos y caracterizamos bioactivos a partir de biomasa vegetal y microbiana. Recuperamos ingredientes a partir de subproductos agroalimenticios.'},
+    { imageUrl: baseUrl + 'img(14).jpeg', description: 'Extractos vegetales' , subtitle :'Preparamos extractos a partir de tu biomasa usando solventes verdes o fluidos supercríticos y los caracterizamos mediante tecnologías analíticas de alta complejidad    '},
+    { imageUrl: baseUrl + 'img(13).jpeg', description: 'Bioactivos para cosmética/APIS' , subtitle :'Extraemos, purificamos y caracterizamos bioactivos a partir de biomasa vegetal y microbiana. Recuperamos ingredientes a partir de subproductos agroalimenticios.'},
     { imageUrl: baseUrl + 'img%20(2).jpeg', description: 'Aditivos alimentarios  y nutraceúticos' , subtitle :'Extraemos, purificamos y caracterizamos compuestos con valor nutricional a partir de biomasa vegetal y microbiana. Recuperamos ingredientes y sustancias nutraceúticas a partir de subproductos agroalimenticios.'},
     { imageUrl: baseUrl + 'img%20(3).jpeg', description: 'Análisis metabolómicos y proteómicos' , subtitle :'Podemos analizar la presencia de metabolitos especializados por RMN y la expresión de proteínas vegetales y microbianas en tus muestras'},
     { imageUrl: baseUrl + 'img%20(4).jpeg', description: 'Bioactividad de sustancias puras y mezclas complejas' , subtitle :'Analizamos la bioactividad y toxicidad de sustancias puras y mezclas complejas    '},
-    { imageUrl: baseUrl + 'img%20(5).jpeg', description: 'Aceites esenciales', subtitle :'Obtenemos aceites esenciales por destilación por arrastre de vapor y por tecnología supercrítica y los caracterizamos cuali y cuantitativamente' },
-    { imageUrl: baseUrl + 'img%20(6).jpeg', description: 'Cannabis', subtitle :'En el marco del PROGRAMA CANNABIS-UNSL procesamos tu biomasa para obtener bioproductos derivados de cáñamo y de cannabis. Realizamos análisis químicos, microbiológicos y moleculares para asegurar la calidad e inocuidad de tu producto.' },
-    { imageUrl: baseUrl + 'img%20(7).jpeg', description: 'Vinos' , subtitle :'Analizamos vinos mediante una tecnología única en Sudamérica (1H-NMR Wine screening) que permite certificar variedad, denominación de origen, terroir, añada, fraude o alteraciones e inscribirlos en una base de datos mundial. Estamos trabajando para incorporar por primera vez al Malbec argentino a la base de datos mundial de vinos por RMN '},
+    { imageUrl: baseUrl + 'img(4).jpeg', description: 'Aceites esenciales', subtitle :'Obtenemos aceites esenciales por destilación por arrastre de vapor y por tecnología supercrítica y los caracterizamos cuali y cuantitativamente' },
+    { imageUrl: baseUrl + 'img(16).png', description: 'Cannabis', subtitle :'En el marco del PROGRAMA CANNABIS-UNSL procesamos tu biomasa para obtener bioproductos derivados de cáñamo y de cannabis. Realizamos análisis químicos, microbiológicos y moleculares para asegurar la calidad e inocuidad de tu producto.' },
+    { imageUrl: baseUrl + 'img(17).jpeg', description: 'Vinos' , subtitle :'Analizamos vinos mediante una tecnología única en Sudamérica (1H-NMR Wine screening) que permite certificar variedad, denominación de origen, terroir, añada, fraude o alteraciones e inscribirlos en una base de datos mundial. Estamos trabajando para incorporar por primera vez al Malbec argentino a la base de datos mundial de vinos por RMN '},
     { imageUrl: baseUrl + 'img%20(9).jpg', description: 'Cultivo in vitro', subtitle :'Obtenemos cultivos de células madres vegetales para la elaboración de productos cosméticos y nutracéuticos' },
   ]
 
