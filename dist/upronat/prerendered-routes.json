@@ -1,5 +1,14 @@
 {
   "routes": [
-    "/"
+    "/home",
+    "/laboratorios",
+    "/laboratorios/actividad-biologica",
+    "/laboratorios/biotecnologia-de-cultivos-in-vitro-vegetales",
+    "/laboratorios/extraccion",
+    "/laboratorios/fraccionamiento-y-purificacion",
+    "/laboratorios/identificacion-y-analisis",
+    "/laboratorios/tecnologia-de-alimentos",
+    "/laboratorios/tecnologia-farmaceutica",
+    "/nosotros"
   ]
 }
