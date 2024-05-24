@@ -11,6 +11,8 @@ import { BiotecnologiaDeCultivosInVitroVegetalesComponent } from './components/r
 import { TecnologiaDeAlimentosComponent } from './components/routes/laboratorios/tecnologia-de-alimentos/tecnologia-de-alimentos.component';
 import { TecnologiaFarmaceuticaComponent } from './components/routes/laboratorios/tecnologia-farmaceutica/tecnologia-farmaceutica.component';
 
+
+import { ExtractosComponent } from './components/routes/que-podemos-hacer/extractos/extractos.component';
 const routes: Routes = [
   { path: 'nosotros', component: NosotrosComponent },
   { path: 'home', component: HomeComponent }, 
@@ -24,6 +26,12 @@ const routes: Routes = [
       { path: 'biotecnologia-de-cultivos-in-vitro-vegetales', component: BiotecnologiaDeCultivosInVitroVegetalesComponent },
       { path: 'tecnologia-de-alimentos', component: TecnologiaDeAlimentosComponent },
       { path: 'tecnologia-farmaceutica', component: TecnologiaFarmaceuticaComponent },
+    ]
+  },
+  {
+    path: 'que-podemos-hacer',
+    children: [
+      { path: 'extractos', component: ExtractosComponent },
     ]
   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },

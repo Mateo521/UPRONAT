@@ -19,6 +19,7 @@ import { IdentificacionYAnalisisComponent } from './components/routes/laboratori
 import { BiotecnologiaDeCultivosInVitroVegetalesComponent } from './components/routes/laboratorios/biotecnologia-de-cultivos-in-vitro-vegetales/biotecnologia-de-cultivos-in-vitro-vegetales.component';
 import { TecnologiaDeAlimentosComponent } from './components/routes/laboratorios/tecnologia-de-alimentos/tecnologia-de-alimentos.component';
 import { TecnologiaFarmaceuticaComponent } from './components/routes/laboratorios/tecnologia-farmaceutica/tecnologia-farmaceutica.component';
+import { ExtractosComponent } from './components/routes/que-podemos-hacer/extractos/extractos.component';
 
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
@@ -40,6 +41,7 @@ import { TecnologiaFarmaceuticaComponent } from './components/routes/laboratorio
     BiotecnologiaDeCultivosInVitroVegetalesComponent,
     TecnologiaDeAlimentosComponent,
     TecnologiaFarmaceuticaComponent,
+    ExtractosComponent,
   ],
   imports: [
     BrowserModule,
