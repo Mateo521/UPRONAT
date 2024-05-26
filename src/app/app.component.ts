@@ -1,21 +1,35 @@
-import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, AfterViewInit, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { Router, NavigationEnd } from '@angular/router';
 import AOS from 'aos';
+import { initFlowbite } from 'flowbite';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
- templateUrl: './app.component.html',
+  templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements AfterViewInit {
   title = 'UPRONAT';
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+  constructor(@Inject(PLATFORM_ID) private platformId: Object, private router: Router) {}
 
-  ngOnInit() {
+  ngAfterViewInit() {
     if (isPlatformBrowser(this.platformId)) {
-      AOS.init({ once: true, duration: 1000 });
+      this.initializeScripts();
+
+  
+      this.router.events
+        .pipe(filter(event => event instanceof NavigationEnd))
+        .subscribe(() => {
+          this.initializeScripts();
+        });
     }
+  }
+
+  private initializeScripts() {
+    AOS.init({ once: true, duration: 1000 });
+    initFlowbite();
   }
 }

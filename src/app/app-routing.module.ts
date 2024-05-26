@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NosotrosComponent } from './components/routes/nosotros/nosotros.component'; // Nueva importación
+import { NosotrosComponent } from './components/routes/nosotros/nosotros.component'; 
 import { HomeComponent } from './components/home/home.component';
 
 import { ExtraccionComponent } from './components/routes/laboratorios/extraccion/extraccion.component';
@@ -13,6 +13,14 @@ import { TecnologiaFarmaceuticaComponent } from './components/routes/laboratorio
 
 
 import { ExtractosComponent } from './components/routes/que-podemos-hacer/extractos/extractos.component';
+import { AceitesEsencialesComponent } from './components/routes/que-podemos-hacer/aceites-esenciales/aceites-esenciales.component';
+import { AditivosAlimentariosYNutraceuticosComponent } from './components/routes/que-podemos-hacer/aditivos-alimentarios-y-nutraceuticos/aditivos-alimentarios-y-nutraceuticos.component';
+import { BioactividadDeSustanciasPurasYMezclasComplejasComponent } from './components/routes/que-podemos-hacer/bioactividad-de-sustancias-puras-y-mezclas-complejas/bioactividad-de-sustancias-puras-y-mezclas-complejas.component';
+import { BioactivosParaCosmeticaApisComponent } from './components/routes/que-podemos-hacer/bioactivos-para-cosmetica-apis/bioactivos-para-cosmetica-apis.component';
+import { CannabisComponent } from './components/routes/que-podemos-hacer/cannabis/cannabis.component';
+import { CultivoInVitroComponent } from './components/routes/que-podemos-hacer/cultivo-in-vitro/cultivo-in-vitro.component';
+import { VinosComponent } from './components/routes/que-podemos-hacer/vinos/vinos.component';
+import { AnalisisMetabolicosYProteomicosComponent } from './components/routes/que-podemos-hacer/analisis-metabolicos-y-proteomicos/analisis-metabolicos-y-proteomicos.component';
 const routes: Routes = [
   { path: 'nosotros', component: NosotrosComponent },
   { path: 'home', component: HomeComponent }, 
@@ -32,6 +40,14 @@ const routes: Routes = [
     path: 'que-podemos-hacer',
     children: [
       { path: 'extractos', component: ExtractosComponent },
+      { path: 'aceites-esenciales', component: AceitesEsencialesComponent },
+      { path: 'aditivos-alimentarios-y-nutraceuticos', component: AditivosAlimentariosYNutraceuticosComponent },
+      { path: 'bioactividad-de-sustancias-puras-y-mezclas-complejas', component: BioactividadDeSustanciasPurasYMezclasComplejasComponent },
+      { path: 'bioactivos-para-cosmetica-apis', component: BioactivosParaCosmeticaApisComponent },
+      { path: 'cannabis', component: CannabisComponent },
+      { path: 'cultivo-in-vitro', component: CultivoInVitroComponent },
+      { path: 'vinos', component: VinosComponent },
+      { path: 'analisis-metabolicos-y-proteomicos', component: AnalisisMetabolicosYProteomicosComponent },
     ]
   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },

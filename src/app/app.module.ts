@@ -1,5 +1,8 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common'; // Importa HashLocationStrategy
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +23,14 @@ import { BiotecnologiaDeCultivosInVitroVegetalesComponent } from './components/r
 import { TecnologiaDeAlimentosComponent } from './components/routes/laboratorios/tecnologia-de-alimentos/tecnologia-de-alimentos.component';
 import { TecnologiaFarmaceuticaComponent } from './components/routes/laboratorios/tecnologia-farmaceutica/tecnologia-farmaceutica.component';
 import { ExtractosComponent } from './components/routes/que-podemos-hacer/extractos/extractos.component';
+import { BioactivosParaCosmeticaApisComponent } from './components/routes/que-podemos-hacer/bioactivos-para-cosmetica-apis/bioactivos-para-cosmetica-apis.component';
+import { AditivosAlimentariosYNutraceuticosComponent } from './components/routes/que-podemos-hacer/aditivos-alimentarios-y-nutraceuticos/aditivos-alimentarios-y-nutraceuticos.component';
+import { AnalisisMetabolicosYProteomicosComponent } from './components/routes/que-podemos-hacer/analisis-metabolicos-y-proteomicos/analisis-metabolicos-y-proteomicos.component';
+import { BioactividadDeSustanciasPurasYMezclasComplejasComponent } from './components/routes/que-podemos-hacer/bioactividad-de-sustancias-puras-y-mezclas-complejas/bioactividad-de-sustancias-puras-y-mezclas-complejas.component';
+import { AceitesEsencialesComponent } from './components/routes/que-podemos-hacer/aceites-esenciales/aceites-esenciales.component';
+import { CannabisComponent } from './components/routes/que-podemos-hacer/cannabis/cannabis.component';
+import { CultivoInVitroComponent } from './components/routes/que-podemos-hacer/cultivo-in-vitro/cultivo-in-vitro.component';
+import { VinosComponent } from './components/routes/que-podemos-hacer/vinos/vinos.component';
 
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
@@ -42,6 +53,14 @@ import { ExtractosComponent } from './components/routes/que-podemos-hacer/extrac
     TecnologiaDeAlimentosComponent,
     TecnologiaFarmaceuticaComponent,
     ExtractosComponent,
+    BioactivosParaCosmeticaApisComponent,
+    AditivosAlimentariosYNutraceuticosComponent,
+    AnalisisMetabolicosYProteomicosComponent,
+    BioactividadDeSustanciasPurasYMezclasComplejasComponent,
+    AceitesEsencialesComponent,
+    CannabisComponent,
+    CultivoInVitroComponent,
+    VinosComponent,
   ],
   imports: [
     BrowserModule,
@@ -49,7 +68,9 @@ import { ExtractosComponent } from './components/routes/que-podemos-hacer/extrac
     AppRoutingModule
   ],
   providers: [
-    provideClientHydration()
+    { provide: LocationStrategy, useClass: HashLocationStrategy } // Configura el proveedor para usar HashLocationStrategy
+
+    
   ],
   bootstrap: [AppComponent]
 })
