@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { ThemeService } from '../../theme.service';
 
 interface logo {
   imageUrl: string
@@ -14,8 +14,11 @@ let baseUrl: string = "assets/Logos_Svg/"
 })
 export class HeaderComponent {
 
+  
+
+
   imgs: logo[] = [
-    {imageUrl: baseUrl + '7.svg', description: 'Logo Dark' },
+    {imageUrl: baseUrl + '7dark.png', description: 'Logo Dark' },
     {imageUrl: baseUrl + '8.png', description: 'Logo' },
    ]
 

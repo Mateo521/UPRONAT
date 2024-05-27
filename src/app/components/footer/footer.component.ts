@@ -14,8 +14,10 @@ let baseUrl: string = "assets/Logos_Svg/"
 export class FooterComponent {
 
   imgs: logo[] = [
-    {imageUrl: baseUrl + '7.svg', description: 'Logo Dark' },
+    {imageUrl: baseUrl + '7dark.png', description: 'Logo Dark' },
     {imageUrl: baseUrl + '8.png', description: 'Logo' },
+    {imageUrl: baseUrl + 'logo-unsl-negativo2.png', description: 'Logo UNSL Dark' },
+    {imageUrl: baseUrl + 'logo-unsl-2-1024x578.png', description: 'Logo UNSL' },
    ]
 
 

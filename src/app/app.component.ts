@@ -4,7 +4,7 @@ import { Router, NavigationEnd } from '@angular/router';
 import AOS from 'aos';
 import { initFlowbite } from 'flowbite';
 import { filter } from 'rxjs/operators';
-
+import { ThemeService } from './theme.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -13,7 +13,10 @@ import { filter } from 'rxjs/operators';
 export class AppComponent implements AfterViewInit {
   title = 'UPRONAT';
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object, private router: Router) {}
+  constructor(@Inject(PLATFORM_ID) private platformId: Object, private router: Router,private themeService: ThemeService) {
+
+    this.themeService.initTheme();
+  }
 
   ngAfterViewInit() {
     if (isPlatformBrowser(this.platformId)) {

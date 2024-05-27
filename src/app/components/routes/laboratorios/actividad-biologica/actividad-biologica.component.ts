@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { ImageService } from '../../../../image.service';
+import { initFlowbite } from 'flowbite';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-actividad-biologica',
@@ -6,5 +9,10 @@ import { Component } from '@angular/core';
   styleUrl: './actividad-biologica.component.css'
 })
 export class ActividadBiologicaComponent {
+  url:string = 'Actividad biológica';
+  description:string = 'Laboratorios';
+
+
+
 
 }

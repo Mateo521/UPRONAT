@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './fraccionamiento-y-purificacion.component.css'
 })
 export class FraccionamientoYPurificacionComponent {
-
+  url:string = 'Fraccionamiento y purificación';
+  description:string = 'Laboratorios';
 }

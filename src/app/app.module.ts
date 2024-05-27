@@ -31,7 +31,8 @@ import { AceitesEsencialesComponent } from './components/routes/que-podemos-hace
 import { CannabisComponent } from './components/routes/que-podemos-hacer/cannabis/cannabis.component';
 import { CultivoInVitroComponent } from './components/routes/que-podemos-hacer/cultivo-in-vitro/cultivo-in-vitro.component';
 import { VinosComponent } from './components/routes/que-podemos-hacer/vinos/vinos.component';
-
+import { ThemeToggleButtonComponent } from './theme-toggle-button/theme-toggle-button.component';
+import { CommonModule } from '@angular/common'; // Importa CommonModule
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
@@ -61,10 +62,11 @@ import { VinosComponent } from './components/routes/que-podemos-hacer/vinos/vino
     CannabisComponent,
     CultivoInVitroComponent,
     VinosComponent,
+    ThemeToggleButtonComponent,
   ],
   imports: [
     BrowserModule,
-
+    CommonModule, 
     AppRoutingModule
   ],
   providers: [

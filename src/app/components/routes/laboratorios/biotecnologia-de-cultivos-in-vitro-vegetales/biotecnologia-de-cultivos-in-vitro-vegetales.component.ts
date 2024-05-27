@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './biotecnologia-de-cultivos-in-vitro-vegetales.component.css'
 })
 export class BiotecnologiaDeCultivosInVitroVegetalesComponent {
+  url:string = 'Biotecnología de cultivos in vitro vegetales';
+  description:string = 'Laboratorios';
 
 }

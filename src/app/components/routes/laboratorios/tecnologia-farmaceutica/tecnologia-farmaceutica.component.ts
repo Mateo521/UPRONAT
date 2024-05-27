@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './tecnologia-farmaceutica.component.css'
 })
 export class TecnologiaFarmaceuticaComponent {
-
+  url:string = 'Tecnología Farmacéutica';
+  description:string = 'Laboratorios';
 }

@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './extraccion.component.css'
 })
 export class ExtraccionComponent {
-
+  url:string = 'Extracción';
+  description:string = 'Laboratorios';
 }

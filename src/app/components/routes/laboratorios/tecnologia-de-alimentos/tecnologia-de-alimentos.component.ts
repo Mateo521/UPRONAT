@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './tecnologia-de-alimentos.component.css'
 })
 export class TecnologiaDeAlimentosComponent {
-
+  url:string = 'Tecnología de Alimentos';
+  description:string = 'Laboratorios';
 }

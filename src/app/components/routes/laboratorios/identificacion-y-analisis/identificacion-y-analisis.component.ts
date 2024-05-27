@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './identificacion-y-analisis.component.css'
 })
 export class IdentificacionYAnalisisComponent {
-
+  url:string = 'Identificación y análisis ';
+  description:string = 'Laboratorios';
 }
