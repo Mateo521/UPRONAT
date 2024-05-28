@@ -16,12 +16,15 @@ interface AccordionSection {
 })
 export class CultivoInVitroComponent implements AfterViewInit {
   logoImg!: string;
-  title: string = 'Obtenemos cultivos de células madres vegetales para la elaboración de productos cosméticos y nutracéuticos';
+  imageUrl!: string;
+  title: string = 'Obtenemos cultivos de células madres vegetales para la elaboración de productos cosméticos y nutracéuticos. <br>Aislamos e identificamos macroorganismos para aplicaciones biotecnológicas.';
   url:string = 'Cultivo in vitro';
   description:string = 'Qué podemos hacer';
   constructor(private imageService: ImageService) {}
 
   ngOnInit(): void {
+     // imageUrl!: string;
+     this.imageUrl = this.imageService.getImage(2); 
     this.logoImg = this.imageService.getLogo();
   }
   ngAfterViewInit(): void {

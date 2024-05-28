@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "UPRONAT/dist/upronat/browser/",
+            "outputPath": "dist/upronat/browser/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [

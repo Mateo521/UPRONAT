@@ -20,15 +20,17 @@ interface AccordionSection {
 export class ExtractosComponent  implements AfterViewInit {
 
   logoImg!: string;
-
+  imageUrl!: string;
   url:string = 'Extractos vegetales';
   description:string = 'Qué podemos hacer';
   title: string = 'Preparamos extractos a partir de tu biomasa usando solventes verdes o fluidos supercríticos y los caracterizamos mediante tecnologías analíticas de alta complejidad';
 
-  constructor(private imageService: ImageService) {}
+  constructor(private imageService: ImageService  ) {}
 
   ngOnInit(): void {
     this.logoImg = this.imageService.getLogo();
+   // imageUrl!: string;
+    this.imageUrl = this.imageService.getImage(1); 
   }
   ngAfterViewInit(): void {
     this.initializeScripts();

@@ -1,0 +1,26 @@
+{
+  "routes": [
+    "/contacto",
+    "/home",
+    "/laboratorios",
+    "/laboratorios/actividad-biologica",
+    "/laboratorios/biotecnologia-de-cultivos-in-vitro-vegetales",
+    "/laboratorios/extraccion",
+    "/laboratorios/fraccionamiento-y-purificacion",
+    "/laboratorios/identificacion-y-analisis",
+    "/laboratorios/tecnologia-de-alimentos",
+    "/laboratorios/tecnologia-farmaceutica",
+    "/nosotros",
+    "/plataforma-tecnologica",
+    "/que-podemos-hacer",
+    "/que-podemos-hacer/aceites-esenciales",
+    "/que-podemos-hacer/aditivos-alimentarios-y-nutraceuticos",
+    "/que-podemos-hacer/analisis-metabolicos-y-proteomicos",
+    "/que-podemos-hacer/bioactividad-de-sustancias-puras-y-mezclas-complejas",
+    "/que-podemos-hacer/bioactivos-para-cosmetica",
+    "/que-podemos-hacer/cannabis",
+    "/que-podemos-hacer/cultivo-in-vitro",
+    "/que-podemos-hacer/extractos",
+    "/que-podemos-hacer/vinos"
+  ]
+}

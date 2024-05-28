@@ -18,12 +18,15 @@ interface AccordionSection {
 })
 export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
   logoImg!: string;
+  imageUrl!: string;
   title: string = 'Podemos analizar la presencia de metabolitos especializados por RMN y la expresión de proteínas vegetales y microbianas en tus muestras';
   url:string = 'Análisis metabolómicos y proteómicos';
   description:string = 'Qué podemos hacer';
   constructor(private imageService: ImageService) {}
 
   ngOnInit(): void {
+     // imageUrl!: string;
+     this.imageUrl = this.imageService.getImage(7); 
     this.logoImg = this.imageService.getLogo();
   }
   ngAfterViewInit(): void {

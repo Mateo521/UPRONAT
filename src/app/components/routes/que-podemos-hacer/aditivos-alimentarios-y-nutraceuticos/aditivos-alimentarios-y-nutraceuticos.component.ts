@@ -18,12 +18,15 @@ interface AccordionSection {
 })
 export class AditivosAlimentariosYNutraceuticosComponent implements AfterViewInit {
   logoImg!: string;
+  imageUrl!: string;
   title: string = 'Extraemos, purificamos y caracterizamos bioactivos a partir de biomasa vegetal y microbiana. Recuperamos ingredientes a partir de subproductos agroalimenticios.';
   url:string = 'Aditivos alimentarios y nutraceúticos';
   description:string = 'Qué podemos hacer';
   constructor(private imageService: ImageService) {}
 
   ngOnInit(): void {
+       // imageUrl!: string;
+       this.imageUrl = this.imageService.getImage(6); 
     this.logoImg = this.imageService.getLogo();
   }
   ngAfterViewInit(): void {

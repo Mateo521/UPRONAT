@@ -16,42 +16,47 @@ import { ExtractosComponent } from './components/routes/que-podemos-hacer/extrac
 import { AceitesEsencialesComponent } from './components/routes/que-podemos-hacer/aceites-esenciales/aceites-esenciales.component';
 import { AditivosAlimentariosYNutraceuticosComponent } from './components/routes/que-podemos-hacer/aditivos-alimentarios-y-nutraceuticos/aditivos-alimentarios-y-nutraceuticos.component';
 import { BioactividadDeSustanciasPurasYMezclasComplejasComponent } from './components/routes/que-podemos-hacer/bioactividad-de-sustancias-puras-y-mezclas-complejas/bioactividad-de-sustancias-puras-y-mezclas-complejas.component';
-import { BioactivosParaCosmeticaApisComponent } from './components/routes/que-podemos-hacer/bioactivos-para-cosmetica-apis/bioactivos-para-cosmetica-apis.component';
+import { BioactivosParaCosmeticaApisComponent } from './components/routes/que-podemos-hacer/bioactivos-para-cosmetica/bioactivos-para-cosmetica-apis.component';
 import { CannabisComponent } from './components/routes/que-podemos-hacer/cannabis/cannabis.component';
 import { CultivoInVitroComponent } from './components/routes/que-podemos-hacer/cultivo-in-vitro/cultivo-in-vitro.component';
 import { VinosComponent } from './components/routes/que-podemos-hacer/vinos/vinos.component';
 import { AnalisisMetabolicosYProteomicosComponent } from './components/routes/que-podemos-hacer/analisis-metabolicos-y-proteomicos/analisis-metabolicos-y-proteomicos.component';
+import { ContactComponent } from './components/home/contact/contact.component';
+import { PlataformaTecnologicaComponent } from './components/routes/plataforma-tecnologica/plataforma-tecnologica.component';
 const routes: Routes = [
-  { path: 'nosotros', component: NosotrosComponent },
-  { path: 'home', component: HomeComponent }, 
+  { path: 'nosotros', component: NosotrosComponent, data: { breadcrumb: 'Nosotros' } },
+  { path: 'contacto', component: ContactComponent, data: { breadcrumb: 'Contacto' } },
+  { path: 'plataforma-tecnologica', component: PlataformaTecnologicaComponent, data: { breadcrumb: 'Plataforma Tecnológica' } },
+  { path: 'home', component: HomeComponent, data: { breadcrumb: 'Inicio' } }, 
   {
     path: 'laboratorios',
+    data: { breadcrumb: 'Laboratorios' },
     children: [
-      { path: 'extraccion', component: ExtraccionComponent },
-      { path: 'actividad-biologica', component: ActividadBiologicaComponent },
-      { path: 'fraccionamiento-y-purificacion', component: FraccionamientoYPurificacionComponent },
-      { path: 'identificacion-y-analisis', component: IdentificacionYAnalisisComponent },
-      { path: 'biotecnologia-de-cultivos-in-vitro-vegetales', component: BiotecnologiaDeCultivosInVitroVegetalesComponent },
-      { path: 'tecnologia-de-alimentos', component: TecnologiaDeAlimentosComponent },
-      { path: 'tecnologia-farmaceutica', component: TecnologiaFarmaceuticaComponent },
+      { path: 'extraccion', component: ExtraccionComponent, data: { breadcrumb: 'Extracción' } },
+      { path: 'actividad-biologica', component: ActividadBiologicaComponent, data: { breadcrumb: 'Actividad Biológica' } },
+      { path: 'fraccionamiento-y-purificacion', component: FraccionamientoYPurificacionComponent, data: { breadcrumb: 'Fraccionamiento y Purificación' } },
+      { path: 'identificacion-y-analisis', component: IdentificacionYAnalisisComponent, data: { breadcrumb: 'Identificación y Análisis' } },
+      { path: 'biotecnologia-de-cultivos-in-vitro-vegetales', component: BiotecnologiaDeCultivosInVitroVegetalesComponent, data: { breadcrumb: 'Biotecnología de Cultivos In Vitro Vegetales' } },
+      { path: 'tecnologia-de-alimentos', component: TecnologiaDeAlimentosComponent, data: { breadcrumb: 'Tecnología de Alimentos' } },
+      { path: 'tecnologia-farmaceutica', component: TecnologiaFarmaceuticaComponent, data: { breadcrumb: 'Tecnología Farmacéutica' } },
     ]
   },
   {
     path: 'que-podemos-hacer',
+    data: { breadcrumb: 'Qué Podemos Hacer' },
     children: [
-      { path: 'extractos', component: ExtractosComponent },
-      { path: 'aceites-esenciales', component: AceitesEsencialesComponent },
-      { path: 'aditivos-alimentarios-y-nutraceuticos', component: AditivosAlimentariosYNutraceuticosComponent },
-      { path: 'bioactividad-de-sustancias-puras-y-mezclas-complejas', component: BioactividadDeSustanciasPurasYMezclasComplejasComponent },
-      { path: 'bioactivos-para-cosmetica-apis', component: BioactivosParaCosmeticaApisComponent },
-      { path: 'cannabis', component: CannabisComponent },
-      { path: 'cultivo-in-vitro', component: CultivoInVitroComponent },
-      { path: 'vinos', component: VinosComponent },
-      { path: 'analisis-metabolicos-y-proteomicos', component: AnalisisMetabolicosYProteomicosComponent },
+      { path: 'extractos', component: ExtractosComponent, data: { breadcrumb: 'Extractos' } },
+      { path: 'aceites-esenciales', component: AceitesEsencialesComponent, data: { breadcrumb: 'Aceites Esenciales' } },
+      { path: 'aditivos-alimentarios-y-nutraceuticos', component: AditivosAlimentariosYNutraceuticosComponent, data: { breadcrumb: 'Aditivos Alimentarios y Nutracéuticos' } },
+      { path: 'bioactividad-de-sustancias-puras-y-mezclas-complejas', component: BioactividadDeSustanciasPurasYMezclasComplejasComponent, data: { breadcrumb: 'Bioactividad de Sustancias Puras y Mezclas Complejas' } },
+      { path: 'bioactivos-para-cosmetica', component: BioactivosParaCosmeticaApisComponent, data: { breadcrumb: 'Bioactivos para Cosmética' } },
+      { path: 'cannabis', component: CannabisComponent, data: { breadcrumb: 'Cannabis' } },
+      { path: 'cultivo-in-vitro', component: CultivoInVitroComponent, data: { breadcrumb: 'Cultivo In Vitro' } },
+      { path: 'vinos', component: VinosComponent, data: { breadcrumb: 'Vinos' } },
+      { path: 'analisis-metabolicos-y-proteomicos', component: AnalisisMetabolicosYProteomicosComponent, data: { breadcrumb: 'Análisis Metabólicos y Proteómicos' } },
     ]
   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  // Wildcard para manejar rutas no definidas
   { path: '**', redirectTo: '/home' }
 ];
 

@@ -17,12 +17,15 @@ interface AccordionSection {
 })
 export class BioactividadDeSustanciasPurasYMezclasComplejasComponent implements AfterViewInit {
   logoImg!: string;
+   imageUrl!: string;
   title: string = 'Analizamos la bioactividad y toxicidad de sustancias puras y mezclas complejas';
   url:string = 'Bioactividad de sustancias puras y mezclas complejas';
   description:string = 'Qué podemos hacer';
   constructor(private imageService: ImageService) {}
 
   ngOnInit(): void {
+          // imageUrl!: string;
+          this.imageUrl = this.imageService.getImage(5); 
     this.logoImg = this.imageService.getLogo();
   }
   ngAfterViewInit(): void {

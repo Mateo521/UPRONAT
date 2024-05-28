@@ -23,7 +23,7 @@ import { BiotecnologiaDeCultivosInVitroVegetalesComponent } from './components/r
 import { TecnologiaDeAlimentosComponent } from './components/routes/laboratorios/tecnologia-de-alimentos/tecnologia-de-alimentos.component';
 import { TecnologiaFarmaceuticaComponent } from './components/routes/laboratorios/tecnologia-farmaceutica/tecnologia-farmaceutica.component';
 import { ExtractosComponent } from './components/routes/que-podemos-hacer/extractos/extractos.component';
-import { BioactivosParaCosmeticaApisComponent } from './components/routes/que-podemos-hacer/bioactivos-para-cosmetica-apis/bioactivos-para-cosmetica-apis.component';
+import { BioactivosParaCosmeticaApisComponent } from './components/routes/que-podemos-hacer/bioactivos-para-cosmetica/bioactivos-para-cosmetica-apis.component';
 import { AditivosAlimentariosYNutraceuticosComponent } from './components/routes/que-podemos-hacer/aditivos-alimentarios-y-nutraceuticos/aditivos-alimentarios-y-nutraceuticos.component';
 import { AnalisisMetabolicosYProteomicosComponent } from './components/routes/que-podemos-hacer/analisis-metabolicos-y-proteomicos/analisis-metabolicos-y-proteomicos.component';
 import { BioactividadDeSustanciasPurasYMezclasComplejasComponent } from './components/routes/que-podemos-hacer/bioactividad-de-sustancias-puras-y-mezclas-complejas/bioactividad-de-sustancias-puras-y-mezclas-complejas.component';
@@ -32,7 +32,9 @@ import { CannabisComponent } from './components/routes/que-podemos-hacer/cannabi
 import { CultivoInVitroComponent } from './components/routes/que-podemos-hacer/cultivo-in-vitro/cultivo-in-vitro.component';
 import { VinosComponent } from './components/routes/que-podemos-hacer/vinos/vinos.component';
 import { ThemeToggleButtonComponent } from './theme-toggle-button/theme-toggle-button.component';
-import { CommonModule } from '@angular/common'; // Importa CommonModule
+import { CommonModule } from '@angular/common';
+import { PlataformaTecnologicaComponent } from './components/routes/plataforma-tecnologica/plataforma-tecnologica.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component'; // Importa CommonModule
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
@@ -63,6 +65,8 @@ import { CommonModule } from '@angular/common'; // Importa CommonModule
     CultivoInVitroComponent,
     VinosComponent,
     ThemeToggleButtonComponent,
+    PlataformaTecnologicaComponent,
+    BreadcrumbComponent,
   ],
   imports: [
     BrowserModule,

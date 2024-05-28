@@ -17,12 +17,14 @@ interface AccordionSection {
 })
 export class VinosComponent  implements AfterViewInit {
   logoImg!: string;
+  imageUrl!: string;
   title: string = 'Analizamos vinos mediante una tecnología única en Sudamérica (1H-NMR Wine screening) que permite certificar variedad, denominación de origen, terroir, añada, fraude o alteraciones e inscribirlos en una base de datos mundial. Estamos trabajando para incorporar por primera vez al Malbec argentino a la base de datos mundial de vinos por RMN';
   url:string = 'Vinos';
   description:string = 'Qué podemos hacer';
   constructor(private imageService: ImageService) {}
 
   ngOnInit(): void {
+    this.imageUrl = this.imageService.getImage(0);
     this.logoImg = this.imageService.getLogo();
   }
   ngAfterViewInit(): void {

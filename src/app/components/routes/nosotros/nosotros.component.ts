@@ -18,7 +18,7 @@ export class NosotrosComponent {
 
   
   imgs: logo[] = [
-    {imageUrl: baseUrl + 'file.png', description: 'Logo' },
+    {imageUrl: baseUrl + '1.png', description: 'Logo' },
     {imageUrl: baseUrl + '8.png', description: 'Logo Dark'  },
    ]
 

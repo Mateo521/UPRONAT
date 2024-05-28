@@ -17,12 +17,15 @@ interface AccordionSection {
 })
 export class AceitesEsencialesComponent implements AfterViewInit {
   logoImg!: string;
+  imageUrl!: string;
   title: string = 'Obtenemos aceites esenciales por destilación por arrastre de vapor y por tecnología supercrítica y los caracterizamos cuali y cuantitativamente';
   url:string = 'Aceites esenciales';
   description:string = 'Qué podemos hacer';
   constructor(private imageService: ImageService) {}
 
   ngOnInit(): void {
+           // imageUrl!: string;
+           this.imageUrl = this.imageService.getImage(8); 
     this.logoImg = this.imageService.getLogo();
   }
   ngAfterViewInit(): void {

@@ -16,12 +16,15 @@ interface AccordionSection {
 })
 export class CannabisComponent  implements AfterViewInit {
   logoImg!: string;
+  imageUrl!: string;
   title: string = 'En el marco del PROGRAMA CANNABIS-UNSL procesamos tu biomasa para obtener bioproductos derivados de cáñamo y de cannabis. Realizamos análisis químicos, microbiológicos y moleculares para asegurar la calidad e inocuidad de tu producto.';
   url:string = 'Cannabis';
   description:string = 'Qué podemos hacer';
   constructor(private imageService: ImageService) {}
 
   ngOnInit(): void {
+       // imageUrl!: string;
+       this.imageUrl = this.imageService.getImage(3); 
     this.logoImg = this.imageService.getLogo();
   }
   ngAfterViewInit(): void {
