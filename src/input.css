@@ -18,8 +18,14 @@ body {
     line-height: 1.7;
 
 }
+:root {
 
-
+--swiper-navigation-color:#7cac54 !important;
+--swiper-pagination-color:green !important;
+}
+ul{
+    list-style-type: none !important;
+}
   .swiper-button-next, .swiper-rtl .swiper-button-prev{
     display: none !important;
 }

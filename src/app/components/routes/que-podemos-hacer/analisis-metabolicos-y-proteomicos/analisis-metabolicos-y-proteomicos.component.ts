@@ -42,64 +42,64 @@ export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
     {
       id: 1,
       title: '⦁	Análisis por RMN de compuestos puros y mezclas',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 2,
       title: 'Determinación estructural por RMN y EM',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 3,
       title: 'Cuantificación de metabolitos por 1H-RMN (independiente de estándares específicos)',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 4,
       title: 'Identificación y cuantificación de compuestos volátiles por CG-EM y CG-FID',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 5,
       title: 'Extracción y cuantificación de proteínas vegetales y microbianas',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 6,
       title: 'Análisis proteómico dependiente e independiente de geles',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 7,
       title: 'Análisis bioinformático',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
   ];

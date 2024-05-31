@@ -42,82 +42,82 @@ export class AditivosAlimentariosYNutraceuticosComponent implements AfterViewIni
     {
       id: 1,
       title: 'Obtención y caracterización química de extractos a partir de fuentes naturales (plantas, biomasa residual, cultivos microbianos y de algas, etc.)',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 2,
       title: 'Extracción y producción in vitro de colorantes naturales',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 3,
       title: 'Caracterización cromatográfica y espectrométrica de bioproductos',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 4,
       title: 'Purificación de metabolitos especializados y caracterización estructural',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 5,
       title: 'Determinación de bioactividad y toxicidad',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 6,
       title: 'Obtención de mantecas vegetales ',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 7,
       title: 'Extracción y caracterización de aceites esenciales y grasas vegetales',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 8,
       title: 'Extracción y caracterización de fragancias e ingredientes funcionales',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 9,
       title: 'Eliminación de sustancias no deseadas',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
   ];

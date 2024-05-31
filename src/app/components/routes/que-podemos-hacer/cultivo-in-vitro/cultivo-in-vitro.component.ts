@@ -40,37 +40,37 @@ export class CultivoInVitroComponent implements AfterViewInit {
     {
       id: 1,
       title: 'Establecimiento, producción y caracterización de líneas celulares vegetales (células madre)',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 2,
       title: 'Propagación in vitro de especies vegetales',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 3,
       title: 'Aislamiento e identificación molecular de microorganismos',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 4,
       title: 'Determinación de bioactivos a partir de cultivos celulares y microbianos',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     }
   ];

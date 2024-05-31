@@ -40,154 +40,154 @@ export class CannabisComponent  implements AfterViewInit {
     {
       id: 1,
       title: 'Preparación de resinas',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 2,
       title: 'Obtención de aceites esenciales e hidrolatos',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 3,
       title: 'Obtención de extractos por maceración etanólica y fluidos supercríticos',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 4,
       title: 'Concentración de extractos etanólicos',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 5,
       title: 'Aislamiento y purificación de fitocannabinoides neutros y ácidos',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 6,
-      title: 'Análisis de cannabinoides en extractos, flores y preparados finales: CBD, CBDA, CBN, CBG, CBGA, CBC, THC, THCA.',
-      content: ['A', 'B', 'C'],
+      title: 'Análisis de cannabinoides en extractos, flores y preparados finales: CBD, CBDA, CBN,CBG, CBGA, Δ9-THC, Δ8-THC y Δ9-THCA',
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 7,
       title: 'Análisis de metales pesados',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 8,
       title: 'Análisis de terpenos y compuestos volátiles',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 9,
       title: 'Análisis de fenoles totales',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 10,
       title: 'Determinación de actividad antioxidante',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 11,
       title: 'Investigación de disolventes',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 12,
       title: 'Determinación de residuos de plaguicidas y micotoxinas',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 13,
       title: 'Detección de microoganismos: Aerobios mesófilos, mohos y levaduras',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 14,
       title: 'Detección de virus: Virus latente del lúpulo (HLVd), virus de la clorosis de la lechuga (LCV), virus críptico del Cannabis (CanCV), virus Mosaico del tabaco (TMV)',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 15,
       title: 'Genotipado por microsatélites',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 16,
       title: 'Detección de género',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 17,
       title: 'Desarrollo de protocolos ad hoc de micropropagación para genéticas específicas',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     

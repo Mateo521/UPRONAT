@@ -25,11 +25,11 @@ import { ContactComponent } from './components/home/contact/contact.component';
 import { PlataformaTecnologicaComponent } from './components/routes/plataforma-tecnologica/plataforma-tecnologica.component';
 const routes: Routes = [
   { path: 'nosotros', component: NosotrosComponent, data: { breadcrumb: 'Nosotros' } },
-  { path: 'contacto', component: ContactComponent, data: { breadcrumb: 'Contacto' } },
-  { path: 'plataforma-tecnologica', component: PlataformaTecnologicaComponent, data: { breadcrumb: 'Plataforma Tecnológica' } },
+  { path: 'equipamiento-y-contacto', component: ContactComponent, data: { breadcrumb: 'Equipamiento y Contacto' } },
+
   { path: 'home', component: HomeComponent, data: { breadcrumb: 'Inicio' } }, 
   {
-    path: 'laboratorios',
+    path: 'laboratorios' ,
     data: { breadcrumb: 'Laboratorios' },
     children: [
       { path: 'extraccion', component: ExtraccionComponent, data: { breadcrumb: 'Extracción' } },
@@ -42,8 +42,10 @@ const routes: Routes = [
     ]
   },
   {
-    path: 'que-podemos-hacer',
-    data: { breadcrumb: 'Qué Podemos Hacer' },
+    path: 'capacidades-y-servicios',
+  component: PlataformaTecnologicaComponent, 
+
+    data: { breadcrumb: 'Capacidades y Servicios' },
     children: [
       { path: 'extractos', component: ExtractosComponent, data: { breadcrumb: 'Extractos' } },
       { path: 'aceites-esenciales', component: AceitesEsencialesComponent, data: { breadcrumb: 'Aceites Esenciales' } },

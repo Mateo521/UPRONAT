@@ -41,46 +41,46 @@ export class AceitesEsencialesComponent implements AfterViewInit {
     {
       id: 1,
       title: 'Obtención de aceites esenciales e hidrolatos por destilación por arrastre de vapor (DAV)',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 2,
       title: 'Obtención de aceites esenciales por extracción con CO2 supercrítico (SFE)',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 3,
       title: 'Caracterización de aceites esenciales y aromas por GC-MS y GC-FID',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 4,
       title: 'Optimización de procesos y rendimientos',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     },
     {
       id: 5,
       title: 'Caracterización de hidrolatos por técnicas cromatográficas',
-      content: ['A', 'B', 'C'],
+      content: ['', '', ''],
       links: [
-        { text: 'D', href: '#' },
-        { text: 'E', href: '#' }
+        { text: '', href: '' },
+        { text: '', href: '' }
       ]
     }
   ];

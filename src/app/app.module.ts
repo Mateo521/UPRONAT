@@ -34,7 +34,8 @@ import { VinosComponent } from './components/routes/que-podemos-hacer/vinos/vino
 import { ThemeToggleButtonComponent } from './theme-toggle-button/theme-toggle-button.component';
 import { CommonModule } from '@angular/common';
 import { PlataformaTecnologicaComponent } from './components/routes/plataforma-tecnologica/plataforma-tecnologica.component';
-import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component'; // Importa CommonModule
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
+import { QuePodemosHacerComponent } from './components/routes/que-podemos-hacer/que-podemos-hacer.component'; // Importa CommonModule
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
@@ -67,6 +68,7 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component'; // Impo
     ThemeToggleButtonComponent,
     PlataformaTecnologicaComponent,
     BreadcrumbComponent,
+    QuePodemosHacerComponent,
   ],
   imports: [
     BrowserModule,

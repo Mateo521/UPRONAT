@@ -1,6 +1,16 @@
 {
   "routes": [
-    "/contacto",
+    "/capacidades-y-servicios",
+    "/capacidades-y-servicios/aceites-esenciales",
+    "/capacidades-y-servicios/aditivos-alimentarios-y-nutraceuticos",
+    "/capacidades-y-servicios/analisis-metabolicos-y-proteomicos",
+    "/capacidades-y-servicios/bioactividad-de-sustancias-puras-y-mezclas-complejas",
+    "/capacidades-y-servicios/bioactivos-para-cosmetica",
+    "/capacidades-y-servicios/cannabis",
+    "/capacidades-y-servicios/cultivo-in-vitro",
+    "/capacidades-y-servicios/extractos",
+    "/capacidades-y-servicios/vinos",
+    "/equipamiento-y-contacto",
     "/home",
     "/laboratorios",
     "/laboratorios/actividad-biologica",
@@ -10,17 +20,6 @@
     "/laboratorios/identificacion-y-analisis",
     "/laboratorios/tecnologia-de-alimentos",
     "/laboratorios/tecnologia-farmaceutica",
-    "/nosotros",
-    "/plataforma-tecnologica",
-    "/que-podemos-hacer",
-    "/que-podemos-hacer/aceites-esenciales",
-    "/que-podemos-hacer/aditivos-alimentarios-y-nutraceuticos",
-    "/que-podemos-hacer/analisis-metabolicos-y-proteomicos",
-    "/que-podemos-hacer/bioactividad-de-sustancias-puras-y-mezclas-complejas",
-    "/que-podemos-hacer/bioactivos-para-cosmetica",
-    "/que-podemos-hacer/cannabis",
-    "/que-podemos-hacer/cultivo-in-vitro",
-    "/que-podemos-hacer/extractos",
-    "/que-podemos-hacer/vinos"
+    "/nosotros"
   ]
 }
