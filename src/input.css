@@ -10,11 +10,11 @@
     src: url("assets/fonts/Mulish/Mulish-VariableFont_wght.ttf") format("truetype");
 }
 body {
-   
+   background-color: whitesmoke;
     font-weight: 400;
    
-
-
+overflow-x: hidden !important;
+    
     line-height: 1.7;
 
 }
@@ -28,4 +28,13 @@ ul{
 }
   .swiper-button-next, .swiper-rtl .swiper-button-prev{
     display: none !important;
+}
+
+.colorfondo{
+    font-weight: bold;
+   color: #5f8540;
+}
+.colorfondoin{
+    
+   background-color: #7cac54;
 }

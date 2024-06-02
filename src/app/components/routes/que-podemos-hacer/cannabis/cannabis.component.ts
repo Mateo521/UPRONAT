@@ -39,8 +39,8 @@ export class CannabisComponent  implements AfterViewInit {
   accordionSections: AccordionSection[] = [
     {
       id: 1,
-      title: 'Preparación de resinas',
-      content: ['', '', ''],
+      title: 'Preparación de resinas y extractos por maceración etanólica y fluidos supercríticos',
+      content: ['Obtención de resinas de espectro completo (full spectrum) y extractos de elevada pureza, calidad e inocuidad a partir de material vegetal (inflorescencias) secas. Extractor líquido escala piloto y extractor de CO2 supercrítico a escala laboratorio con capacidad para 1000 gr y 200 gr de material vegetal seco por ciclo respectivamente.  '],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -49,7 +49,7 @@ export class CannabisComponent  implements AfterViewInit {
     {
       id: 2,
       title: 'Obtención de aceites esenciales e hidrolatos',
-      content: ['', '', ''],
+      content: ['Destilación por arrastre de vapor de agua de inflorescencias y otros materiales frescos para la obtención de aceites esenciales y aguas aromáticas de fragancias exclusivas y una amplia gama de aplicaciones. Escalas: laboratorio 250 g de material fresco '],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -57,8 +57,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 3,
-      title: 'Obtención de extractos por maceración etanólica y fluidos supercríticos',
-      content: ['', '', ''],
+      title: 'Concentración de extractos etanólicos a presión reducida para eliminación de solventes orgánicos ',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -66,8 +66,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 4,
-      title: 'Concentración de extractos etanólicos',
-      content: ['', '', ''],
+      title: 'Aislamiento y purificación de fitocannabinoides neutros y ácidos. Obtención de CBD y THC de alta pureza (isolate). Remoción de THC para la obtención de extractos de amplio espectro (broad spectrum).',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -75,8 +75,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 5,
-      title: 'Aislamiento y purificación de fitocannabinoides neutros y ácidos',
-      content: ['', '', ''],
+      title: 'Análisis de cannabinoides en extractos, flores y preparados finales: CBD, CBDA, CBN, CBG, CBGA, Δ9-THC, Δ8-THC y Δ9-THCA',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -84,8 +84,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 6,
-      title: 'Análisis de cannabinoides en extractos, flores y preparados finales: CBD, CBDA, CBN,CBG, CBGA, Δ9-THC, Δ8-THC y Δ9-THCA',
-      content: ['', '', ''],
+      title: 'Análisis de metales pesados. Determinación cuantitativa de arsénico, plomo, cadmio y mercurio en muestras vegetales, extractos y preparados finales mediante Espectrometría de Masa con Plasma Acoplado Inductivamente.',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -93,8 +93,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 7,
-      title: 'Análisis de metales pesados',
-      content: ['', '', ''],
+      title: 'Análisis de terpenos y compuestos volátiles',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -102,8 +102,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 8,
-      title: 'Análisis de terpenos y compuestos volátiles',
-      content: ['', '', ''],
+      title: 'Análisis de fenoles totales',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -111,8 +111,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 9,
-      title: 'Análisis de fenoles totales',
-      content: ['', '', ''],
+      title: 'Determinación de actividad antioxidante',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -120,8 +120,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 10,
-      title: 'Determinación de actividad antioxidante',
-      content: ['', '', ''],
+      title: 'Detección de microoganismos: Aerobios mesófilos, mohos y levaduras',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -129,8 +129,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 11,
-      title: 'Investigación de disolventes',
-      content: ['', '', ''],
+      title: 'Detección de virus: Virus latente del lúpulo (HLVd), virus de la clorosis de la lechuga (LCV), virus críptico del Cannabis (CanCV), virus Mosaico del tabaco (TMV)',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -138,8 +138,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 12,
-      title: 'Determinación de residuos de plaguicidas y micotoxinas',
-      content: ['', '', ''],
+      title: 'Genotipado por microsatélites',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -147,8 +147,8 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 13,
-      title: 'Detección de microoganismos: Aerobios mesófilos, mohos y levaduras',
-      content: ['', '', ''],
+      title: 'Detección de género',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -157,7 +157,7 @@ export class CannabisComponent  implements AfterViewInit {
     {
       id: 14,
       title: 'Detección de virus: Virus latente del lúpulo (HLVd), virus de la clorosis de la lechuga (LCV), virus críptico del Cannabis (CanCV), virus Mosaico del tabaco (TMV)',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -165,32 +165,13 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 15,
-      title: 'Genotipado por microsatélites',
-      content: ['', '', ''],
-      links: [
-        { text: '', href: '' },
-        { text: '', href: '' }
-      ]
-    },
-    {
-      id: 16,
-      title: 'Detección de género',
-      content: ['', '', ''],
-      links: [
-        { text: '', href: '' },
-        { text: '', href: '' }
-      ]
-    },
-    {
-      id: 17,
       title: 'Desarrollo de protocolos ad hoc de micropropagación para genéticas específicas',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
       ]
-    },
-    
+    }
   ];
 
 

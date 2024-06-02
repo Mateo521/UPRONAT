@@ -41,7 +41,7 @@ export class AceitesEsencialesComponent implements AfterViewInit {
     {
       id: 1,
       title: 'Obtención de aceites esenciales e hidrolatos por destilación por arrastre de vapor (DAV)',
-      content: ['', '', ''],
+      content: ['Tipo de material a procesar: Biomasa preferentemente fresca o congelada. <br> DAV escala laboratorio con capacidad para 250 gr de material vegetal fresco por ciclo. <br> DAV escala piloto con capacidad para 2500 gr de material vegetal fresco por ciclo.'],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -49,8 +49,8 @@ export class AceitesEsencialesComponent implements AfterViewInit {
     },
     {
       id: 2,
-      title: 'Obtención de aceites esenciales por extracción con CO2 supercrítico (SFE)',
-      content: ['', '', ''],
+      title: 'Obtención de aceites esenciales por extracción con <b>CO   <sub>2<sub/></b>  supercrítico (SFE)',
+      content: ['Tipo de material a procesar: Material vegetal seco y molido. <br> Escala laboratorio capacidad hasta 200 gr de material vegetal por ciclo.'],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -58,8 +58,8 @@ export class AceitesEsencialesComponent implements AfterViewInit {
     },
     {
       id: 3,
-      title: 'Caracterización de aceites esenciales y aromas por GC-MS y GC-FID',
-      content: ['', '', ''],
+      title: 'Caracterización de aceites esenciales, hidrolatos y extractos aromáticos por GC-MS (Cromatografía gaseosa acoplada a Espectrometría de masas de impacto electrónico) y GC-FID (Cromatografía gaseosa con detección de ionización de llama).',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -67,17 +67,8 @@ export class AceitesEsencialesComponent implements AfterViewInit {
     },
     {
       id: 4,
-      title: 'Optimización de procesos y rendimientos',
-      content: ['', '', ''],
-      links: [
-        { text: '', href: '' },
-        { text: '', href: '' }
-      ]
-    },
-    {
-      id: 5,
-      title: 'Caracterización de hidrolatos por técnicas cromatográficas',
-      content: ['', '', ''],
+      title: 'Asesoramiento a productores: Optimización de procesos y rendimientos',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }

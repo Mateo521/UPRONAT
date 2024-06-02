@@ -40,7 +40,7 @@ export class CultivoInVitroComponent implements AfterViewInit {
     {
       id: 1,
       title: 'Establecimiento, producción y caracterización de líneas celulares vegetales (células madre)',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -49,7 +49,7 @@ export class CultivoInVitroComponent implements AfterViewInit {
     {
       id: 2,
       title: 'Propagación in vitro de especies vegetales',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -58,7 +58,7 @@ export class CultivoInVitroComponent implements AfterViewInit {
     {
       id: 3,
       title: 'Aislamiento e identificación molecular de microorganismos',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -67,7 +67,7 @@ export class CultivoInVitroComponent implements AfterViewInit {
     {
       id: 4,
       title: 'Determinación de bioactivos a partir de cultivos celulares y microbianos',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }

@@ -45,7 +45,7 @@ export class ExtractosComponent  implements AfterViewInit {
     {
       id: 1,
       title: 'Preparación de extractos a partir de biomasa vegetal, residuos agroindustriales y cultivos microbianos por extracción con solventes verdes y fluidos supercríticos. (descripción, ventajas y aplicaciones de SCF) ',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -54,7 +54,7 @@ export class ExtractosComponent  implements AfterViewInit {
     {
       id: 2,
       title: 'Extracciones liquido-liquido',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -63,7 +63,7 @@ export class ExtractosComponent  implements AfterViewInit {
     {
       id: 3,
       title: 'Extracciones y fraccionamientos con solventes verdes',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -72,7 +72,7 @@ export class ExtractosComponent  implements AfterViewInit {
     {
       id: 4,
       title: 'Extracciones y separaciones con fluidos supercríticos',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -81,7 +81,7 @@ export class ExtractosComponent  implements AfterViewInit {
     {
       id: 5,
       title: 'Caracterización cromatográfica y espectrométrica (RMN, EM, UV, IR)',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }

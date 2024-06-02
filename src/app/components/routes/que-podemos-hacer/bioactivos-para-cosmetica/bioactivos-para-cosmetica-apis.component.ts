@@ -43,7 +43,7 @@ export class BioactivosParaCosmeticaApisComponent implements AfterViewInit {
     {
       id: 1,
       title: 'Extracción sustentable de bioactivos a partir de biomasa vegetal y microbiana',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -52,7 +52,7 @@ export class BioactivosParaCosmeticaApisComponent implements AfterViewInit {
     {
       id: 2,
       title: 'Recuperación de bioactivos a partir residuos agroindustriales ',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -61,7 +61,7 @@ export class BioactivosParaCosmeticaApisComponent implements AfterViewInit {
     {
       id: 3,
       title: 'Caracterización cromatográfica y espectrométrica de bioproductos',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -70,7 +70,7 @@ export class BioactivosParaCosmeticaApisComponent implements AfterViewInit {
     {
       id: 4,
       title: 'Purificación de metabolitos especializados y caracterización estructural',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -79,7 +79,7 @@ export class BioactivosParaCosmeticaApisComponent implements AfterViewInit {
     {
       id: 5,
       title: 'Determinación de bioactividad y toxicidad',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -88,7 +88,7 @@ export class BioactivosParaCosmeticaApisComponent implements AfterViewInit {
     {
       id: 6,
       title: 'Obtención de mantecas vegetales ',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -97,7 +97,7 @@ export class BioactivosParaCosmeticaApisComponent implements AfterViewInit {
     {
       id: 7,
       title: 'Extracción y caracterización de aceites esenciales y grasas vegetales',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -106,7 +106,7 @@ export class BioactivosParaCosmeticaApisComponent implements AfterViewInit {
     {
       id: 8,
       title: 'Extracción y caracterización de fragancias e ingredientes funcionales',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -115,7 +115,7 @@ export class BioactivosParaCosmeticaApisComponent implements AfterViewInit {
     {
       id: 9,
       title: 'Eliminación de sustancias no deseadas',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -125,7 +125,7 @@ export class BioactivosParaCosmeticaApisComponent implements AfterViewInit {
     {
       id: 10,
       title: 'Identificación de moléculas biomarcadoras y análisis de calidad en drogas vegetales y fitomedicamentos',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }

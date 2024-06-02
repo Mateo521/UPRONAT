@@ -40,7 +40,7 @@ export class VinosComponent  implements AfterViewInit {
     {
       id: 1,
       title: 'Wine screening mediante <sup class="pl-1">1</sup>H-NMR',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -49,7 +49,7 @@ export class VinosComponent  implements AfterViewInit {
     {
       id: 2,
       title: 'Determinación de fraude y/o alteraciones',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -58,7 +58,7 @@ export class VinosComponent  implements AfterViewInit {
     {
       id: 3,
       title: 'Determinación de terroir',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -67,7 +67,7 @@ export class VinosComponent  implements AfterViewInit {
     {
       id: 4,
       title: 'Certificación de denominación de origen',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -76,7 +76,7 @@ export class VinosComponent  implements AfterViewInit {
     {
       id: 5,
       title: 'Determinación de la variedad',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }

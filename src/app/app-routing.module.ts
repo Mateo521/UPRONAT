@@ -23,10 +23,11 @@ import { VinosComponent } from './components/routes/que-podemos-hacer/vinos/vino
 import { AnalisisMetabolicosYProteomicosComponent } from './components/routes/que-podemos-hacer/analisis-metabolicos-y-proteomicos/analisis-metabolicos-y-proteomicos.component';
 import { ContactComponent } from './components/home/contact/contact.component';
 import { PlataformaTecnologicaComponent } from './components/routes/plataforma-tecnologica/plataforma-tecnologica.component';
+import { EquipamientoComponent } from './components/home/equipamiento/equipamiento.component';
 const routes: Routes = [
   { path: 'nosotros', component: NosotrosComponent, data: { breadcrumb: 'Nosotros' } },
-  { path: 'equipamiento-y-contacto', component: ContactComponent, data: { breadcrumb: 'Equipamiento y Contacto' } },
-
+  { path: 'equipamiento', component: EquipamientoComponent, data: { breadcrumb: 'Equipamiento' } },
+  { path: 'contacto', component: ContactComponent, data: { breadcrumb: 'Contacto' } },
   { path: 'home', component: HomeComponent, data: { breadcrumb: 'Inicio' } }, 
   {
     path: 'laboratorios' ,
@@ -43,10 +44,9 @@ const routes: Routes = [
   },
   {
     path: 'capacidades-y-servicios',
-  component: PlataformaTecnologicaComponent, 
-
-    data: { breadcrumb: 'Capacidades y Servicios' },
+    data: { breadcrumb: 'Capacidades y Laboratorios' },
     children: [
+      { path: '', redirectTo: '/home', pathMatch: 'full' }, // Redirige a una ruta hija por defecto
       { path: 'extractos', component: ExtractosComponent, data: { breadcrumb: 'Extractos' } },
       { path: 'aceites-esenciales', component: AceitesEsencialesComponent, data: { breadcrumb: 'Aceites Esenciales' } },
       { path: 'aditivos-alimentarios-y-nutraceuticos', component: AditivosAlimentariosYNutraceuticosComponent, data: { breadcrumb: 'Aditivos Alimentarios y Nutracéuticos' } },

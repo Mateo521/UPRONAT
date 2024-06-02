@@ -35,7 +35,8 @@ import { ThemeToggleButtonComponent } from './theme-toggle-button/theme-toggle-b
 import { CommonModule } from '@angular/common';
 import { PlataformaTecnologicaComponent } from './components/routes/plataforma-tecnologica/plataforma-tecnologica.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
-import { QuePodemosHacerComponent } from './components/routes/que-podemos-hacer/que-podemos-hacer.component'; // Importa CommonModule
+import { QuePodemosHacerComponent } from './components/routes/que-podemos-hacer/que-podemos-hacer.component';
+import { EquipamientoComponent } from './components/home/equipamiento/equipamiento.component'; // Importa CommonModule
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
@@ -69,6 +70,7 @@ import { QuePodemosHacerComponent } from './components/routes/que-podemos-hacer/
     PlataformaTecnologicaComponent,
     BreadcrumbComponent,
     QuePodemosHacerComponent,
+    EquipamientoComponent,
   ],
   imports: [
     BrowserModule,

@@ -41,8 +41,8 @@ export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
   accordionSections: AccordionSection[] = [
     {
       id: 1,
-      title: '⦁	Análisis por RMN de compuestos puros y mezclas',
-      content: ['', '', ''],
+      title: 'Análisis por RMN de compuestos puros y mezclas',
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -51,7 +51,7 @@ export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
     {
       id: 2,
       title: 'Determinación estructural por RMN y EM',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -60,7 +60,7 @@ export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
     {
       id: 3,
       title: 'Cuantificación de metabolitos por 1H-RMN (independiente de estándares específicos)',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -69,7 +69,7 @@ export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
     {
       id: 4,
       title: 'Identificación y cuantificación de compuestos volátiles por CG-EM y CG-FID',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -78,7 +78,7 @@ export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
     {
       id: 5,
       title: 'Extracción y cuantificación de proteínas vegetales y microbianas',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -87,7 +87,7 @@ export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
     {
       id: 6,
       title: 'Análisis proteómico dependiente e independiente de geles',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -96,7 +96,7 @@ export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
     {
       id: 7,
       title: 'Análisis bioinformático',
-      content: ['', '', ''],
+      content: [''],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
