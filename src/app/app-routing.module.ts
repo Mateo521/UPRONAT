@@ -25,41 +25,88 @@ import { ContactComponent } from './components/home/contact/contact.component';
 import { PlataformaTecnologicaComponent } from './components/routes/plataforma-tecnologica/plataforma-tecnologica.component';
 import { EquipamientoComponent } from './components/home/equipamiento/equipamiento.component';
 const routes: Routes = [
-  { path: 'nosotros', component: NosotrosComponent, data: { breadcrumb: 'Nosotros' } },
-  { path: 'equipamiento', component: EquipamientoComponent, data: { breadcrumb: 'Equipamiento' } },
-  { path: 'contacto', component: ContactComponent, data: { breadcrumb: 'Contacto' } },
-  { path: 'home', component: HomeComponent, data: { breadcrumb: 'Inicio' } }, 
   {
-    path: 'laboratorios' ,
-    data: { breadcrumb: 'Laboratorios' },
+    path: 'en',
     children: [
-      { path: 'extraccion', component: ExtraccionComponent, data: { breadcrumb: 'Extracción' } },
-      { path: 'actividad-biologica', component: ActividadBiologicaComponent, data: { breadcrumb: 'Actividad Biológica' } },
-      { path: 'fraccionamiento-y-purificacion', component: FraccionamientoYPurificacionComponent, data: { breadcrumb: 'Fraccionamiento y Purificación' } },
-      { path: 'identificacion-y-analisis', component: IdentificacionYAnalisisComponent, data: { breadcrumb: 'Identificación y Análisis' } },
-      { path: 'biotecnologia-de-cultivos-in-vitro-vegetales', component: BiotecnologiaDeCultivosInVitroVegetalesComponent, data: { breadcrumb: 'Biotecnología de Cultivos In Vitro Vegetales' } },
-      { path: 'tecnologia-de-alimentos', component: TecnologiaDeAlimentosComponent, data: { breadcrumb: 'Tecnología de Alimentos' } },
-      { path: 'tecnologia-farmaceutica', component: TecnologiaFarmaceuticaComponent, data: { breadcrumb: 'Tecnología Farmacéutica' } },
+      { path: 'about-us', component: NosotrosComponent, data: { breadcrumb: 'About Us' } },
+      { path: 'equipment', component: EquipamientoComponent, data: { breadcrumb: 'Equipment' } },
+      { path: 'contact', component: ContactComponent, data: { breadcrumb: 'Contact' } },
+      { path: 'home', component: HomeComponent, data: { breadcrumb: 'Home' } },
+      {
+        path: 'labs',
+        data: { breadcrumb: 'Labs' },
+        children: [
+          { path: 'extraction', component: ExtraccionComponent, data: { breadcrumb: 'Extraction' } },
+          { path: 'biological-activity', component: ActividadBiologicaComponent, data: { breadcrumb: 'Biological Activity' } },
+          { path: 'fractionation-and-purification', component: FraccionamientoYPurificacionComponent, data: { breadcrumb: 'Fractionation and Purification' } },
+          { path: 'identification-and-analysis', component: IdentificacionYAnalisisComponent, data: { breadcrumb: 'Identification and Analysis' } },
+          { path: 'in-vitro-plant-biotechnology', component: BiotecnologiaDeCultivosInVitroVegetalesComponent, data: { breadcrumb: 'In Vitro Plant Biotechnology' } },
+          { path: 'food-technology', component: TecnologiaDeAlimentosComponent, data: { breadcrumb: 'Food Technology' } },
+          { path: 'pharmaceutical-technology', component: TecnologiaFarmaceuticaComponent, data: { breadcrumb: 'Pharmaceutical Technology' } },
+        ]
+      },
+      {
+        path: 'capabilities-and-services',
+        data: { breadcrumb: 'Capabilities and Services' },
+        children: [
+          { path: '', redirectTo: '/en/home', pathMatch: 'full' },
+          { path: 'extracts', component: ExtractosComponent, data: { breadcrumb: 'Extracts' } },
+          { path: 'essential-oils', component: AceitesEsencialesComponent, data: { breadcrumb: 'Essential Oils' } },
+          { path: 'food-additives-and-nutraceuticals', component: AditivosAlimentariosYNutraceuticosComponent, data: { breadcrumb: 'Food Additives and Nutraceuticals' } },
+          { path: 'bioactivity-of-pure-substances-and-complex-mixtures', component: BioactividadDeSustanciasPurasYMezclasComplejasComponent, data: { breadcrumb: 'Bioactivity of Pure Substances and Complex Mixtures' } },
+          { path: 'bioactives-for-cosmetics', component: BioactivosParaCosmeticaApisComponent, data: { breadcrumb: 'Bioactives for Cosmetics' } },
+          { path: 'cannabis', component: CannabisComponent, data: { breadcrumb: 'Cannabis' } },
+          { path: 'in-vitro-culture', component: CultivoInVitroComponent, data: { breadcrumb: 'In Vitro Culture' } },
+          { path: 'wines', component: VinosComponent, data: { breadcrumb: 'Wines' } },
+          { path: 'metabolic-and-proteomic-analysis', component: AnalisisMetabolicosYProteomicosComponent, data: { breadcrumb: 'Metabolic and Proteomic Analysis' } },
+        ]
+      },
+      { path: '', redirectTo: '/en/home', pathMatch: 'full' },
+      { path: '**', redirectTo: '/en/home' }
     ]
   },
   {
-    path: 'capacidades-y-servicios',
-    data: { breadcrumb: 'Capacidades y Laboratorios' },
+    path: 'es',
     children: [
-      { path: '', redirectTo: '/home', pathMatch: 'full' }, // Redirige a una ruta hija por defecto
-      { path: 'extractos', component: ExtractosComponent, data: { breadcrumb: 'Extractos' } },
-      { path: 'aceites-esenciales', component: AceitesEsencialesComponent, data: { breadcrumb: 'Aceites Esenciales' } },
-      { path: 'aditivos-alimentarios-y-nutraceuticos', component: AditivosAlimentariosYNutraceuticosComponent, data: { breadcrumb: 'Aditivos Alimentarios y Nutracéuticos' } },
-      { path: 'bioactividad-de-sustancias-puras-y-mezclas-complejas', component: BioactividadDeSustanciasPurasYMezclasComplejasComponent, data: { breadcrumb: 'Bioactividad de Sustancias Puras y Mezclas Complejas' } },
-      { path: 'bioactivos-para-cosmetica', component: BioactivosParaCosmeticaApisComponent, data: { breadcrumb: 'Bioactivos para Cosmética' } },
-      { path: 'cannabis', component: CannabisComponent, data: { breadcrumb: 'Cannabis' } },
-      { path: 'cultivo-in-vitro', component: CultivoInVitroComponent, data: { breadcrumb: 'Cultivo In Vitro' } },
-      { path: 'vinos', component: VinosComponent, data: { breadcrumb: 'Vinos' } },
-      { path: 'analisis-metabolicos-y-proteomicos', component: AnalisisMetabolicosYProteomicosComponent, data: { breadcrumb: 'Análisis Metabólicos y Proteómicos' } },
+      { path: 'nosotros', component: NosotrosComponent, data: { breadcrumb: 'Nosotros' } },
+      { path: 'equipamiento', component: EquipamientoComponent, data: { breadcrumb: 'Equipamiento' } },
+      { path: 'contacto', component: ContactComponent, data: { breadcrumb: 'Contacto' } },
+      { path: 'home', component: HomeComponent, data: { breadcrumb: 'Inicio' } },
+      {
+        path: 'laboratorios',
+        data: { breadcrumb: 'Laboratorios' },
+        children: [
+          { path: 'extraccion', component: ExtraccionComponent, data: { breadcrumb: 'Extracción' } },
+          { path: 'actividad-biologica', component: ActividadBiologicaComponent, data: { breadcrumb: 'Actividad Biológica' } },
+          { path: 'fraccionamiento-y-purificacion', component: FraccionamientoYPurificacionComponent, data: { breadcrumb: 'Fraccionamiento y Purificación' } },
+          { path: 'identificacion-y-analisis', component: IdentificacionYAnalisisComponent, data: { breadcrumb: 'Identificación y Análisis' } },
+          { path: 'biotecnologia-de-cultivos-in-vitro-vegetales', component: BiotecnologiaDeCultivosInVitroVegetalesComponent, data: { breadcrumb: 'Biotecnología de Cultivos In Vitro Vegetales' } },
+          { path: 'tecnologia-de-alimentos', component: TecnologiaDeAlimentosComponent, data: { breadcrumb: 'Tecnología de Alimentos' } },
+          { path: 'tecnologia-farmaceutica', component: TecnologiaFarmaceuticaComponent, data: { breadcrumb: 'Tecnología Farmacéutica' } },
+        ]
+      },
+      {
+        path: 'capacidades-y-servicios',
+        data: { breadcrumb: 'Capacidades y Servicios' },
+        children: [
+          { path: '', redirectTo: '/es/home', pathMatch: 'full' },
+          { path: 'extractos', component: ExtractosComponent, data: { breadcrumb: 'Extractos' } },
+          { path: 'aceites-esenciales', component: AceitesEsencialesComponent, data: { breadcrumb: 'Aceites Esenciales' } },
+          { path: 'aditivos-alimentarios-y-nutraceuticos', component: AditivosAlimentariosYNutraceuticosComponent, data: { breadcrumb: 'Aditivos Alimentarios y Nutracéuticos' } },
+          { path: 'bioactividad-de-sustancias-puras-y-mezclas-complejas', component: BioactividadDeSustanciasPurasYMezclasComplejasComponent, data: { breadcrumb: 'Bioactividad de Sustancias Puras y Mezclas Complejas' } },
+          { path: 'bioactivos-para-cosmetica', component: BioactivosParaCosmeticaApisComponent, data: { breadcrumb: 'Bioactivos para Cosmética' } },
+          { path: 'cannabis', component: CannabisComponent, data: { breadcrumb: 'Cannabis' } },
+          { path: 'cultivo-in-vitro', component: CultivoInVitroComponent, data: { breadcrumb: 'Cultivo In Vitro' } },
+          { path: 'vinos', component: VinosComponent, data: { breadcrumb: 'Vinos' } },
+          { path: 'analisis-metabolicos-y-proteomicos', component: AnalisisMetabolicosYProteomicosComponent, data: { breadcrumb: 'Análisis Metabólicos y Proteómicos' } },
+        ]
+      },
+      { path: '', redirectTo: '/es/home', pathMatch: 'full' },
+      { path: '**', redirectTo: '/es/home' }
     ]
   },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/home' }
+  { path: '', redirectTo: '/es/home', pathMatch: 'full' },
+  { path: '**', redirectTo: '/es/home' }
 ];
 
 @NgModule({

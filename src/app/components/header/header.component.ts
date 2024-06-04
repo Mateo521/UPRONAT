@@ -1,25 +1,55 @@
 import { Component } from '@angular/core';
-import { ThemeService } from '../../theme.service';
+import { LanguageService } from '../../languagestatus.service';
 
-interface logo {
-  imageUrl: string
-  description: string
+interface Logo {
+  imageUrl: string;
+  description: string;
 }
-let baseUrl: string = "assets/Logos_Svg/"
+
+const baseUrl: string = 'assets/Logos_Svg/';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrls: ['./header.component.css'] // corregir styleUrl a styleUrls
 })
 export class HeaderComponent {
+  constructor(private languageService: LanguageService) {}
 
+  generateLink(route: string): string {
+    return this.languageService.generateLink(route);
+  }
+
+  getLanguagePrefix(): string {
+    return this.languageService.getCurrentLanguage();
+  }
+
+  getLinkText(route: string): string {
+    // Obtener el texto del enlace según el idioma actual
+    const currentLanguage = this.languageService.getCurrentLanguage();
+    const translations: Record<string, Record<string, string>> = {
+      en: {
+        nosotros: 'About Us',
+        equipamiento: 'Equipment',
+        contacto: 'Contact',
+        capacidadesyservicios:'Capabilities and services',
+      },
+      es: {
+        nosotros: 'Nosotros',
+        equipamiento: 'Equipamiento',
+        contacto: 'Contacto',
+        capacidadesyservicios:'Capacidades y servicios',
+      }
+    };
+    return translations[currentLanguage][route] || route;
+  }
+
+ 
   isMenuOpen = false;
-  isSubMenuOpen = false;  // Estado para el submenú
+  isSubMenuOpen = false;
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
-  
   }
 
   toggleSubMenu() {
@@ -28,13 +58,12 @@ export class HeaderComponent {
 
   closeMenu() {
     this.isMenuOpen = false;
-    this.isSubMenuOpen = false;  // Cerrar submenú cuando se cierra el menú principal
+    this.isSubMenuOpen = false;
   }
 
-  imgs: logo[] = [
-    {imageUrl: baseUrl + '7dark.png', description: 'Logo Dark' },
-    {imageUrl: baseUrl + '8.png', description: 'Logo' },
-   ]
-
-  
+  imgs: Logo[] = [
+    { imageUrl: baseUrl + '7dark.png', description: 'Logo Dark' },
+    { imageUrl: baseUrl + '8.png', description: 'Logo' },
+    { imageUrl: baseUrl + 'Flag_of_Argentina.svg', description: 'Flag AR' }
+  ];
 }

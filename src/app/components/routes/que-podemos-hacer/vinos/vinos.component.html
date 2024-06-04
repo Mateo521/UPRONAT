@@ -1,22 +1,20 @@
-
 <div class="max-w-screen-xl relative px-3" style="left: 50%; transform: translateX(-50%);">
-     
-     
-      
-    
-         <div class="flex  items-top md:flex-nowrap flex-wrap   md:gap-5 px-3 gap-2 py-10">
-        
-        <img class="md:w-24 md:h-24 w-12 h-auto py-2"   [src]="logoImg" alt="Logo UPRONAT">
-        <h1 class="md:text-3xl text-xl dark:text-gray-400"  [innerHTML]="title"></h1>
-        
-        
-        </div>
-        <div class="p-3">
-        <img class="w-full h-96 object-contain rounded-lg mb-10 object-center" [src]="imageUrl" alt="" style="background-color:#fbfff7;">
-    </div>
-    <ng-container *ngFor="let section of accordionSections">
-      <p class="mb-1 text-lg colorfondo" [innerHTML]="section.title"></p>
-      <p class="px-3 text-gray-500 dark:text-gray-400 pb-5" [innerHTML]="section.content"></p>
+
+
+
+
+  <div class="flex  items-top md:flex-nowrap flex-wrap   md:gap-5 px-3 gap-2 py-10">
+
+    <img data-aos="zoom-in-down" class="md:w-24 md:h-24 w-12 h-auto py-2" [src]="logoImg" alt="Logo UPRONAT">
+    <h1 data-aos="zoom-in-down" class="md:text-3xl text-xl dark:text-gray-400" [innerHTML]="title"></h1>
+
+
+  </div>
+  <div class="p-3">
+    <img data-aos="zoom-in-down" data-aos-duration="1500" class="w-full object-contain rounded-lg mb-10 object-center"
+      [src]="imageUrl" alt="" style="background-color:#fbfff7;">
+  </div>
+  <ng-container *ngFor="let section of accordionSections">
+    <p class="mb-1 text-lg colorfondo" [innerHTML]="section.title"></p>
+    <p class="px-3 text-gray-500 dark:text-gray-400 pb-5" [innerHTML]="section.content"></p>
   </ng-container>
-              
-        

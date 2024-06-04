@@ -5,6 +5,8 @@ import AOS from 'aos';
 import { initFlowbite } from 'flowbite';
 import { filter } from 'rxjs/operators';
 import { ThemeService } from './theme.service';
+
+import { LanguageService } from './languagestatus.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -13,12 +15,16 @@ import { ThemeService } from './theme.service';
 export class AppComponent implements AfterViewInit {
   title = 'UPRONAT';
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object, private router: Router,private themeService: ThemeService) {
+  constructor(@Inject(PLATFORM_ID) private platformId: Object, private router: Router,private themeService: ThemeService,private languageService: LanguageService) {
 
     this.themeService.initTheme();
   }
 
   ngAfterViewInit() {
+    this.languageService.language$.subscribe(language => {
+      this.router.navigate([`/${language}/home`]);
+    });
+    
     if (isPlatformBrowser(this.platformId)) {
       this.initializeScripts();
 

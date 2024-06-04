@@ -40,7 +40,7 @@ export class CannabisComponent  implements AfterViewInit {
     {
       id: 1,
       title: 'Preparación de resinas y extractos por maceración etanólica y fluidos supercríticos',
-      content: ['Obtención de resinas de espectro completo (full spectrum) y extractos de elevada pureza, calidad e inocuidad a partir de material vegetal (inflorescencias) secas. Extractor líquido escala piloto y extractor de CO2 supercrítico a escala laboratorio con capacidad para 1000 gr y 200 gr de material vegetal seco por ciclo respectivamente.  '],
+      content: ['Obtención de resinas de espectro completo (full spectrum) y extractos de elevada pureza, calidad e inocuidad a partir de material vegetal (inflorescencias) secas. Extractor líquido escala piloto y extractor de CO<sub>2</sub> supercrítico a escala laboratorio con capacidad para 1000 gr y 200 gr de material vegetal seco por ciclo respectivamente.  '],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }

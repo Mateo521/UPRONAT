@@ -36,7 +36,8 @@ import { CommonModule } from '@angular/common';
 import { PlataformaTecnologicaComponent } from './components/routes/plataforma-tecnologica/plataforma-tecnologica.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { QuePodemosHacerComponent } from './components/routes/que-podemos-hacer/que-podemos-hacer.component';
-import { EquipamientoComponent } from './components/home/equipamiento/equipamiento.component'; // Importa CommonModule
+import { EquipamientoComponent } from './components/home/equipamiento/equipamiento.component';
+import { LanguageSwitcherComponent } from './language-switcher/language-switcher.component'; // Importa CommonModule
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
@@ -71,6 +72,7 @@ import { EquipamientoComponent } from './components/home/equipamiento/equipamien
     BreadcrumbComponent,
     QuePodemosHacerComponent,
     EquipamientoComponent,
+    LanguageSwitcherComponent,
   ],
   imports: [
     BrowserModule,

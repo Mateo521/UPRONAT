@@ -5,13 +5,13 @@ import { Injectable } from '@angular/core';
 })
 export class ImageService {
   private images: string[] = [
-    'assets/img/carrusel/img(17).jpeg',
+    'assets/img/carrusel/img(25).jpg',
     'assets/img/carrusel/img(15).jpeg', // 'assets/img/carrusel/img(14).jpeg',
     'assets/img/carrusel/img(5).jpeg',
     'assets/img/carrusel/unsl-cannabis-05.png',
     'assets/img/carrusel/img(13).jpeg',
     'assets/img/carrusel/img(18).jpeg',
-    'assets/img/carrusel/img(19).jpeg',
+    'assets/img/carrusel/img(11).jpeg',
     'assets/img/carrusel/img(6).jpeg',
     'assets/img/carrusel/img(21).jpeg'
   ];
