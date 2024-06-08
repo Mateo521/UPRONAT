@@ -103,7 +103,7 @@ export class VinosComponent  implements AfterViewInit {
   files: Logo[] = [
     { imageUrl: baseUrl + 'WineProfilingBrochure.PDF', description: 'WineProfilingBrochure PDF' },
     { imageUrl: baseUrl + 'wine_report.pdf', description: 'Wine Report PDF' },
-    { imageUrl: baseUrl + 'VinosporRMN.docx', description: 'Vinos por RMN DOCX' }
+   // { imageUrl: baseUrl + 'VinosporRMN.docx', description: 'Vinos por RMN DOCX' }
   ];
   
 
