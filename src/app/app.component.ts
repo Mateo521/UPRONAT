@@ -21,9 +21,7 @@ export class AppComponent implements AfterViewInit {
   }
 
   ngAfterViewInit() {
-    this.languageService.language$.subscribe(language => {
-      this.router.navigate([`/${language}/home`]);
-    });
+
     
     if (isPlatformBrowser(this.platformId)) {
       this.initializeScripts();

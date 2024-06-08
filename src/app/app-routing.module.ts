@@ -62,7 +62,7 @@ const routes: Routes = [
         ]
       },
       { path: '', redirectTo: '/en/home', pathMatch: 'full' },
-      { path: '**', redirectTo: '/en/home' }
+      { path: '**', redirectTo: '/en/home', pathMatch: 'full' },
     ]
   },
   {
@@ -102,15 +102,19 @@ const routes: Routes = [
         ]
       },
       { path: '', redirectTo: '/es/home', pathMatch: 'full' },
-      { path: '**', redirectTo: '/es/home' }
+      { path: '**', redirectTo: '/es/home', pathMatch: 'full' },
     ]
   },
-  { path: '', redirectTo: '/es/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/es/home' }
+  { path: '', redirectTo: '/en/home', pathMatch: 'full' },
+  { path: '**', redirectTo: '/en/home', pathMatch: 'full' },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes),RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
+  imports: [
+    RouterModule.forRoot(routes),RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled',useHash:true})
+  
+  
+  ],
   exports: [RouterModule]
   
 })

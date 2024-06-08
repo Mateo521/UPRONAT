@@ -1,6 +1,11 @@
 <div class="max-w-screen-xl relative px-3" style="left: 50%; transform: translateX(-50%);">
 
+  <div class="flex gap-5">
+  
 
+    
+  
+  </div>
 
 
   <div class="flex  items-top md:flex-nowrap flex-wrap   md:gap-5 px-3 gap-2 py-10">
@@ -18,3 +23,22 @@
     <p class="mb-1 text-lg colorfondo" [innerHTML]="section.title"></p>
     <p class="px-3 text-gray-500 dark:text-gray-400 pb-5" [innerHTML]="section.content"></p>
   </ng-container>
+
+ 
+<!--a  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Read more</a-->
+
+
+
+<a *ngFor="let file of files" [href]="file.imageUrl" class="inline-flex m-1 items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M8.737 8.737a21.49 21.49 0 0 1 3.308-2.724m0 0c3.063-2.026 5.99-2.641 7.331-1.3 1.827 1.828.026 6.591-4.023 10.64-4.049 4.049-8.812 5.85-10.64 4.023-1.33-1.33-.736-4.218 1.249-7.253m6.083-6.11c-3.063-2.026-5.99-2.641-7.331-1.3-1.827 1.828-.026 6.591 4.023 10.64m3.308-9.34a21.497 21.497 0 0 1 3.308 2.724m2.775 3.386c1.985 3.035 2.579 5.923 1.248 7.253-1.336 1.337-4.245.732-7.295-1.275M14 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/>
+  </svg>
+   <span class="w-full px-3">{{file.description}}</span>
+   <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 15v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-2m-8 1V4m0 12-4-4m4 4 4-4"/>
+  </svg>
+  
+</a> 
+
+
+  <!--iframe src="" height="900" width="100%"></iframe-->

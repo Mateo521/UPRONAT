@@ -13,7 +13,8 @@ export class ImageService {
     'assets/img/carrusel/img(18).jpeg',
     'assets/img/carrusel/img(11).jpeg',
     'assets/img/carrusel/img(6).jpeg',
-    'assets/img/carrusel/img(21).jpeg'
+    'assets/img/carrusel/img(21).jpeg',
+    'assets/img/carrusel/img(16).jpeg'
   ];
 
   private logo = { img: 'assets/Logos_Svg/1.png' }; // 

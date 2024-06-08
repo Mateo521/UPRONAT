@@ -9,6 +9,12 @@ interface AccordionSection {
   links: { text: string, href: string }[];
 }
 
+interface Logo {
+imageUrl: string;
+description: string;
+}
+
+const baseUrl: string = 'assets/files/';
 
 @Component({
   selector: 'app-vinos',
@@ -16,12 +22,20 @@ interface AccordionSection {
   styleUrl: './vinos.component.css'
 })
 export class VinosComponent  implements AfterViewInit {
+
+
+
+
+
   logoImg!: string;
   imageUrl!: string;
   title: string = 'Analizamos vinos mediante una tecnología única en Sudamérica (<sup class="pl-1">1</sup>H-NMR Wine screening) que permite certificar variedad, denominación de origen, terroir, fraude o alteraciones e inscribirlos en una base de datos mundial. <br> Estamos trabajando para incorporar por primera vez al Malbec argentino a la base de datos mundial de vinos por RMN. ';
   url:string = 'Vinos';
   description:string = 'Qué podemos hacer';
   constructor(private imageService: ImageService) {}
+
+
+  
 
   ngOnInit(): void {
     this.imageUrl = this.imageService.getImage(0);
@@ -86,6 +100,11 @@ export class VinosComponent  implements AfterViewInit {
 
 
 
-
+  files: Logo[] = [
+    { imageUrl: baseUrl + 'WineProfilingBrochure.PDF', description: 'WineProfilingBrochure PDF' },
+    { imageUrl: baseUrl + 'wine_report.pdf', description: 'Wine Report PDF' },
+    { imageUrl: baseUrl + 'VinosporRMN.docx', description: 'Vinos por RMN DOCX' }
+  ];
+  
 
 }
