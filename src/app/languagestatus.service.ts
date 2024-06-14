@@ -36,7 +36,7 @@ export class LanguageService {
         extractos: '/capacidades-y-servicios/extractos',
         Bioactivos: '/capacidades-y-servicios/bioactivos-para-cosmetica',
         Aditivos: '/capacidades-y-servicios/aditivos-alimentarios-y-nutraceuticos',
-        Análisis:'/capacidades-y-servicios/analisis-metabolicos-y-proteomicos',
+        Análisis:'/capacidades-y-servicios/analisis-metabolomicos-por-tecnicas-espectrometricas',
 
         Bioactividad: '/capacidades-y-servicios/bioactividad-de-sustancias-puras-y-mezclas-complejas',
         Aceites: '/capacidades-y-servicios/aceites-esenciales',

@@ -98,7 +98,7 @@ const routes: Routes = [
           { path: 'cannabis', component: CannabisComponent, data: { breadcrumb: 'Cannabis' } },
           { path: 'cultivo-in-vitro', component: CultivoInVitroComponent, data: { breadcrumb: 'Cultivo In Vitro' } },
           { path: 'vinos', component: VinosComponent, data: { breadcrumb: 'Vinos' } },
-          { path: 'analisis-metabolicos-y-proteomicos', component: AnalisisMetabolicosYProteomicosComponent, data: { breadcrumb: 'Análisis Metabólicos y Proteómicos' } },
+          { path: 'analisis-metabolomicos-por-tecnicas-espectrometricas', component: AnalisisMetabolicosYProteomicosComponent, data: { breadcrumb: 'Análisis metabolómicos por técnicas espectrométricas ' } },
         ]
       },
       { path: '', redirectTo: '/es/home', pathMatch: 'full' },

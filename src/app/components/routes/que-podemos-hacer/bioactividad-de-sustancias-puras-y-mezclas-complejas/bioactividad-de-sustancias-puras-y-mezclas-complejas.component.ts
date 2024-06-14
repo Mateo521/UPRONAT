@@ -93,18 +93,9 @@ export class BioactividadDeSustanciasPurasYMezclasComplejasComponent implements 
       ]
     },
     {
-      id: 7,
-      title: 'Determinación de actividad antimicrobiana',
-      content: [''],
-      links: [
-        { text: '', href: '' },
-        { text: '', href: '' }
-      ]
-    },
-    {
       id: 8,
       title: 'Determinación de fitotoxicidad',
-      content: [''],
+      content: ['Determinación de toxicidad y genotoxicidad en especies vegetales modelo mono y dicotiledóneas (Lactuca sativa y Allium cepa).'],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -113,7 +104,7 @@ export class BioactividadDeSustanciasPurasYMezclasComplejasComponent implements 
     {
       id: 9,
       title: 'Determinación de ictiotoxicidad',
-      content: ['Determinación de toxicidad aguda y crónica de sustancias puras y mezclas complejas utilizando Poecillia reticulata y Danio rerio como modelos'],
+      content: ['Determinación de toxicidad aguda y crónica de sustancias puras y mezclas complejas utilizando Poecillia reticulata y Danio rerio (Zebra fish) como modelos.'],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
