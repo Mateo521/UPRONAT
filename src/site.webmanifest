@@ -1,7 +1,7 @@
 {
-    "name": "Nombre de tu Aplicación",
-    "short_name": "Nombre Corto",
-    "start_url": "/index.html",
+    "name": "UPRONAT Unidad de Productos Naturales Dr. Carlos E. Tonn",
+    "short_name": "UPRONAT",
+    "start_url": "/UPRONAT/dist/upronat/browser/index.html",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
