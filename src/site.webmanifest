@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "UPRONAT Unidad de Productos Naturales Dr. Carlos E. Tonn",
+    "short_name": "UPRONAT",
+    "start_url": "/UPRONAT/dist/upronat/browser/index.html",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -11,6 +12,12 @@
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
+        },
+        {
+            "src": "/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
         }
     ],
     "theme_color": "#ffffff",
