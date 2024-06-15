@@ -51,7 +51,7 @@ export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
     {
       id: 2,
       title: '',
-      content: ['Los núcleos analizables más habituales son <sup>1</sup>H y <sup>13</sup>C. También se pueden medir todos los núcleos activos a la técnica, que resuenen en las frecuencias comprendidas en el rango de <sup>31</sup>P-<sup>109</sup>Ag, como por ejemplo: <sup>31</sup>P, <sup>195</sup>Pt, <sup>11</sup>B, <sup>119</sup>Sn, <sup>77</sup>Se, <sup>113</sup>Cd, <sup>199</sup>Hg, <sup>207P</sup>b y otros.'],
+      content: ['Los núcleos analizables más habituales son <sup>1</sup>H y <sup>13</sup>C. También se pueden medir todos los núcleos activos a la técnica, que resuenen en las frecuencias comprendidas en el rango de <sup>31</sup>P-<sup>109</sup>Ag, como por ejemplo: <sup>31</sup>P, <sup>195</sup>Pt, <sup>11</sup>B, <sup>119</sup>Sn, <sup>77</sup>Se, <sup>113</sup>Cd, <sup>199</sup>Hg, <sup>207</sup>Pb y otros.'],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
