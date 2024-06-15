@@ -2,7 +2,7 @@
     "name": "UPRONAT Unidad de Productos Naturales Dr. Carlos E. Tonn",
     "short_name": "UPRONAT",
     "start_url": "/UPRONAT/dist/upronat/browser/index.html",
-    "icons": [
+    "icons": [ 
         {
             "src": "/UPRONAT/dist/upronat/browser/android-chrome-192x192.png",
             "sizes": "192x192",
