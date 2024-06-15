@@ -1,4 +1,4 @@
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule, isDevMode } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common'; // Importa HashLocationStrategy
 
@@ -37,7 +37,8 @@ import { PlataformaTecnologicaComponent } from './components/routes/plataforma-t
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { QuePodemosHacerComponent } from './components/routes/que-podemos-hacer/que-podemos-hacer.component';
 import { EquipamientoComponent } from './components/home/equipamiento/equipamiento.component';
-import { LanguageSwitcherComponent } from './language-switcher/language-switcher.component'; // Importa CommonModule
+import { LanguageSwitcherComponent } from './language-switcher/language-switcher.component';
+import { ServiceWorkerModule } from '@angular/service-worker'; // Importa CommonModule
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
@@ -77,7 +78,12 @@ import { LanguageSwitcherComponent } from './language-switcher/language-switcher
   imports: [
     BrowserModule,
     CommonModule, 
-    AppRoutingModule
+    AppRoutingModule, ServiceWorkerModule.register('ngsw-worker.js', {
+  enabled: !isDevMode(),
+  // Register the ServiceWorker as soon as the application is stable
+  // or after 30 seconds (whichever comes first).
+  registrationStrategy: 'registerWhenStable:30000'
+})
   ],
   providers: [
     { provide: LocationStrategy, useClass: HashLocationStrategy } // Configura el proveedor para usar HashLocationStrategy
