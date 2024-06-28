@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1718474759750,
+  "timestamp": 1719535962434,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/favicon.ico",
         "/index.html",
         "/main-5WGCY7HH.css",
-        "/main-SGOM2UFB.js",
+        "/main-ENCTEQP4.js",
         "/manifest.webmanifest",
         "/polyfills-S3BTP7ME.js",
         "/scripts-PYTNIP2N.js",
@@ -212,7 +212,7 @@
     "/assets/Logos_Svg/8.png": "1f44d15b07dabc116f043f1917f9ab133f7c1626",
     "/assets/Logos_Svg/8.svg": "07d9db2411bd3c4e7fcdc5c49d0ecf236ec96313",
     "/assets/Logos_Svg/9.svg": "3512c05b71c21181839a66b502e8b8614fe80432",
-    "/assets/Logos_Svg/Flag_of_Argentina.svg": "b54fa14d4d27a1dc3f763d650f9e5afe155e376b",
+    "/assets/Logos_Svg/Flag_of_Argentina.svg": "1a45164128dde52374de2252a388b86ce224e887",
     "/assets/Logos_Svg/[removal.ai]_009e98bc-17e7-4ed3-ad9a-3fee598f667c-1.png": "fbfd348e232fc46df6cb6ef2a04590b9ea095072",
     "/assets/Logos_Svg/logo-unsl-2-1024x578.png": "b99e6b736eb49ee0cad20359b52332eba851e3bd",
     "/assets/Logos_Svg/logo-unsl-negativo2.png": "a7db302625c69962721265f0d50aa5e13379399e",
@@ -330,9 +330,9 @@
     "/assets/img/pexels-photo-10181438.jpeg": "26ba3c36c50ffd36b97e1177987fb7fade0e2ad6",
     "/assets/img/unsl-cannabis-05.png": "0a0988859b410aa0864d0fbbdbcc6ed0504aae3b",
     "/favicon.ico": "4f6b8a35e886ab5242809a3a50f47c70eadd92f7",
-    "/index.html": "64153362f6c2d45f0d833c2cc501948f13ac753c",
+    "/index.html": "a746761731f8f4cdaf0eced7f2088781806c5dea",
     "/main-5WGCY7HH.css": "a4c3f97f2d96716f73b2b8b0c6ae0d232dcbf719",
-    "/main-SGOM2UFB.js": "b6dcbe889ac4bb41fe75430c78efe641be781173",
+    "/main-ENCTEQP4.js": "f329f0f53d9338c8710040d06fb53e0e9439ff81",
     "/manifest.webmanifest": "a46ab9f2ea22e5e958542f76332295f26586d997",
     "/media/Mulish-VariableFont_wght-SD34WLID.ttf": "e10d10b34bd6b9dac59176fa88ee2b063c6f5efa",
     "/polyfills-S3BTP7ME.js": "893d641030c187f109c667de1b0a73a03095fa3b",
