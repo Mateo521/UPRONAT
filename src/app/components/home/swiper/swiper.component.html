@@ -10,8 +10,8 @@
                     class="grid md:grid-cols-2 grid-cols-1 items-start item bg-white border border-gray-200 rounded-lg shadow md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             
                     <img [ngClass]="{'object-cover': i !== 6, 'object-contain': i === 6}"
-                        class="w-full rounded-t-lg h-full md:rounded-none md:rounded-s-lg" 
-                        src="{{slide.imageUrl}}" alt="">
+                        class="w-full rounded-t-lg  md:rounded-none md:rounded-s-lg md:h-full h-96" 
+                        src="{{slide.imageUrl}}" alt="{{slide.subtitle}}">
             
                     <div class="colorfondoim">
                         <div class="flex flex-col justify-start p-4 leading-normal md:h-96 h-auto">

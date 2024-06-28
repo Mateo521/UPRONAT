@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1719535962434,
+  "timestamp": 1719606207008,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -14,11 +14,11 @@
         "/favicon.ico",
         "/index.html",
         "/main-5WGCY7HH.css",
-        "/main-ENCTEQP4.js",
+        "/main-NALWAXGV.js",
         "/manifest.webmanifest",
         "/polyfills-S3BTP7ME.js",
         "/scripts-PYTNIP2N.js",
-        "/styles-5JYQZXBW.css"
+        "/styles-SRCEGLTU.css"
       ],
       "patterns": []
     },
@@ -330,14 +330,14 @@
     "/assets/img/pexels-photo-10181438.jpeg": "26ba3c36c50ffd36b97e1177987fb7fade0e2ad6",
     "/assets/img/unsl-cannabis-05.png": "0a0988859b410aa0864d0fbbdbcc6ed0504aae3b",
     "/favicon.ico": "4f6b8a35e886ab5242809a3a50f47c70eadd92f7",
-    "/index.html": "a746761731f8f4cdaf0eced7f2088781806c5dea",
+    "/index.html": "470c53a8ba5f014d488e70de6a9b858aae0b6f2c",
     "/main-5WGCY7HH.css": "a4c3f97f2d96716f73b2b8b0c6ae0d232dcbf719",
-    "/main-ENCTEQP4.js": "f329f0f53d9338c8710040d06fb53e0e9439ff81",
+    "/main-NALWAXGV.js": "606ca3a66c04633d884e96076731712a5849b8c0",
     "/manifest.webmanifest": "a46ab9f2ea22e5e958542f76332295f26586d997",
     "/media/Mulish-VariableFont_wght-SD34WLID.ttf": "e10d10b34bd6b9dac59176fa88ee2b063c6f5efa",
     "/polyfills-S3BTP7ME.js": "893d641030c187f109c667de1b0a73a03095fa3b",
     "/scripts-PYTNIP2N.js": "f97e24b7e3d54560f427f4c35aa000df829bf411",
-    "/styles-5JYQZXBW.css": "2a0fd3f73addeb555034964336e1890872b177ac"
+    "/styles-SRCEGLTU.css": "b870f9414c1d7a159900f5eb7d47ebaff39b146a"
   },
   "navigationUrls": [
     {
