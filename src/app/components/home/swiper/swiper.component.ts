@@ -39,7 +39,7 @@ export class SwiperComponent  implements OnInit{
 
 
   slides: slide[] = [
-    { imageUrl: baseUrl + 'img(15).jpeg', description: 'Extractos vegetales' , subtitle :'Preparamos extractos a partir de tu biomasa usando solventes verdes o fluidos supercríticos y los caracterizamos mediante tecnologías analíticas de alta complejidad    ', route: '/'+this.generateLink('extracto')},
+    { imageUrl: baseUrl + 'img(15).jpeg', description: 'Extractos vegetales' , subtitle :'Preparamos extractos a partir de tu biomasa usando solventes verdes o fluidos supercríticos y los caracterizamos mediante tecnologías analíticas de alta complejidad    ', route: '/'+this.generateLink('extractos')},
     { imageUrl: baseUrl + 'img(13).jpeg', description: 'Bioactivos para cosmética' , subtitle :'Extraemos, purificamos y caracterizamos bioactivos a partir de biomasa vegetal y microbiana. Recuperamos ingredientes a partir de subproductos agroalimenticios.',route: '/'+this.generateLink('Bioactivos')},
     { imageUrl: baseUrl + 'img(11).jpeg', description: 'Aditivos alimentarios  y nutraceúticos' , subtitle :'Extraemos, purificamos y caracterizamos compuestos con valor nutricional a partir de biomasa vegetal y microbiana. Recuperamos ingredientes y sustancias nutraceúticas a partir de subproductos agroalimenticios.',route: '/'+this.generateLink('Aditivos')},
     { imageUrl: baseUrl + 'img(6).jpeg', description: 'Análisis metabolómicos por técnicas espectrométricas' , subtitle :'Podemos analizar la presencia de metabolitos especializados por distintas técnicas como resonancia magnético nuclear, espectrometría de masas y HPLC',route: '/'+this.generateLink('Análisis')},
