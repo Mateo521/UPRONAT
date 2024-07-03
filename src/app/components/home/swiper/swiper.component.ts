@@ -50,6 +50,8 @@ export class SwiperComponent  implements OnInit{
     { imageUrl: baseUrl + 'img(13).jpeg', description: 'Bioactivos para cosmética' , subtitle :'Extraemos, purificamos y caracterizamos bioactivos a partir de biomasa vegetal y microbiana. Recuperamos ingredientes a partir de subproductos agroalimenticios.',route: '/'+this.generateLink('Bioactivos')},
     { imageUrl: baseUrl + 'img(11).jpeg', description: 'Aditivos alimentarios  y nutraceúticos' , subtitle :'Extraemos, purificamos y caracterizamos compuestos con valor nutricional a partir de biomasa vegetal y microbiana. Recuperamos ingredientes y sustancias nutraceúticas a partir de subproductos agroalimenticios.',route: '/'+this.generateLink('Aditivos')},
     { imageUrl: baseUrl + 'img(18).jpeg', description: 'Bioactividad de sustancias puras y mezclas complejas' , subtitle :'Analizamos la bioactividad y toxicidad de sustancias puras y mezclas complejas    ',route: '/'+this.generateLink('Bioactividad')},
+
+    { imageUrl: baseUrl + 'img.jpeg', description: 'Asesoramiento y análisis bioinformático de datos proteómicos' , subtitle :'Asesoramos en diseño de experimentos para estudios proteómicos, extracción de proteínas a partir de muestras biológicas y ofrecemos análisis bioinformático de datos de masas obtenidos a partir de servicios tercerizados.',route: '/'+this.generateLink('Bioinformatica')},
       ]
 
 

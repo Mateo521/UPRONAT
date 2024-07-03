@@ -24,6 +24,7 @@ import { AnalisisMetabolicosYProteomicosComponent } from './components/routes/qu
 import { ContactComponent } from './components/home/contact/contact.component';
 import { PlataformaTecnologicaComponent } from './components/routes/plataforma-tecnologica/plataforma-tecnologica.component';
 import { EquipamientoComponent } from './components/home/equipamiento/equipamiento.component';
+import { AsesoramientoYAnalisisBioinformaticoDeDatosProteomicosComponent } from './components/routes/que-podemos-hacer/asesoramiento-y-analisis-bioinformatico-de-datos-proteomicos/asesoramiento-y-analisis-bioinformatico-de-datos-proteomicos.component';
 const routes: Routes = [
   {
     path: 'en',
@@ -99,6 +100,8 @@ const routes: Routes = [
           { path: 'cultivo-in-vitro', component: CultivoInVitroComponent, data: { breadcrumb: 'Cultivo In Vitro' } },
           { path: 'vinos', component: VinosComponent, data: { breadcrumb: 'Vinos' } },
           { path: 'analisis-metabolomicos-por-tecnicas-espectrometricas', component: AnalisisMetabolicosYProteomicosComponent, data: { breadcrumb: 'Análisis metabolómicos por técnicas espectrométricas ' } },
+          { path: 'asesoramiento-y-analisis-bioinformatico-de-datos-proteomicos', component: AsesoramientoYAnalisisBioinformaticoDeDatosProteomicosComponent, data: { breadcrumb: 'Asesoramiento y análisis bioinformático de datos proteómicos' } },
+  
         ]
       },
       { path: '', redirectTo: '/es/home', pathMatch: 'full' },

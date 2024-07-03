@@ -43,6 +43,7 @@ export class LanguageService {
         Cannabis: '/capacidades-y-servicios/cannabis',
         Vinos:'/capacidades-y-servicios/vinos',
         Cultivo:'/capacidades-y-servicios/cultivo-in-vitro',
+        Bioinformatica:'/capacidades-y-servicios/asesoramiento-y-analisis-bioinformatico-de-datos-proteomicos',
       },
       en: {
         extractos: '/capabilities-and-services/extracts',
