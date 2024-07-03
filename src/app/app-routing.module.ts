@@ -105,8 +105,8 @@ const routes: Routes = [
       { path: '**', redirectTo: '/es/home', pathMatch: 'full' },
     ]
   },
-  { path: '', redirectTo: '/en/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/en/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/es/home', pathMatch: 'full' },
+  { path: '**', redirectTo: '/es/home', pathMatch: 'full' },
 ];
 
 @NgModule({

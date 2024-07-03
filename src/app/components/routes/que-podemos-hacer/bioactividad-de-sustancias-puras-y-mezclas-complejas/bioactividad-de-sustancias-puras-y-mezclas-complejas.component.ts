@@ -95,7 +95,7 @@ export class BioactividadDeSustanciasPurasYMezclasComplejasComponent implements 
     {
       id: 8,
       title: 'Determinación de fitotoxicidad',
-      content: ['Determinación de toxicidad y genotoxicidad en especies vegetales modelo mono y dicotiledóneas (Lactuca sativa y Allium cepa).'],
+      content: ['Determinación de toxicidad y genotoxicidad en especies vegetales modelo mono y dicotiledóneas (<i>Lactuca sativa</i> y <i>Allium cepa</i>).'],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -104,7 +104,7 @@ export class BioactividadDeSustanciasPurasYMezclasComplejasComponent implements 
     {
       id: 9,
       title: 'Determinación de ictiotoxicidad',
-      content: ['Determinación de toxicidad aguda y crónica de sustancias puras y mezclas complejas utilizando Poecillia reticulata y Danio rerio (Zebra fish) como modelos.'],
+      content: ['Determinación de toxicidad aguda y crónica de sustancias puras y mezclas complejas utilizando <i>Poecillia reticulata</i> y <i>Danio rerio</i> (Zebrafish) como modelos.'],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }

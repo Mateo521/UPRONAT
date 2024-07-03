@@ -16,7 +16,7 @@
           [src]="imageUrl" alt="" style="background-color:#fbfff7;">
       </div>
          <ng-container *ngFor="let section of accordionSections">
-      <p class="mb-1 text-lg colorfondo">{{section.title}}</p>
+      <p class="mb-1 text-lg colorfondo" [innerHTML]="section.title"></p>
       <p class="px-3 text-gray-500 dark:text-gray-400 pb-5" [innerHTML]="section.content"></p>
   </ng-container>
               
