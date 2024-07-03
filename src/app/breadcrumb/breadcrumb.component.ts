@@ -2,18 +2,30 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { filter, map } from 'rxjs/operators';
 import { Breadcrumb } from './breadcrumb.model';
-
+import { ImageService } from '../image.service';
 @Component({
   selector: 'app-breadcrumb',
   templateUrl: './breadcrumb.component.html',
   styleUrls: ['./breadcrumb.component.css']
 })
 export class BreadcrumbComponent implements OnInit {
+  
+  logoImg!: string;
+  imageUrl!: string[];
   breadcrumbs: Breadcrumb[] = [];
 
-  constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
+  constructor(private router: Router, private activatedRoute: ActivatedRoute, private imageService: ImageService) {}
+
+
+
+ 
+  
+
+
 
   ngOnInit() {
+    this.imageUrl = this.imageService.getImagesbreadcrumb(); 
+
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd),
       map(() => this.buildBreadcrumbs(this.activatedRoute.root))

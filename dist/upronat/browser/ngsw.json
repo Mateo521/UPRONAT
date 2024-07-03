@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1720004771053,
+  "timestamp": 1720008708423,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
+        "/main-5MTBL4MP.js",
         "/main-5WGCY7HH.css",
-        "/main-QZBTLBFE.js",
         "/manifest.webmanifest",
         "/polyfills-S3BTP7ME.js",
         "/scripts-PYTNIP2N.js",
-        "/styles-SXOQLVML.css"
+        "/styles-MP7X4VID.css"
       ],
       "patterns": []
     },
@@ -34,6 +34,8 @@
         "/assets/Iconos_Png/IconoOscuro.png",
         "/assets/Iconos_Png/Logo_Claro_con_fondo.png",
         "/assets/Iconos_Png/Logo_Oscuro_con_fondo.png",
+        "/assets/Iconos_Png/unsl(1).png",
+        "/assets/Iconos_Png/unsl.png",
         "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-01.png",
         "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-02.png",
         "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-03.png",
@@ -187,6 +189,8 @@
     "/assets/Iconos_Png/IconoOscuro.png": "0e3c23c6c4e995368cf89d495b1f78391289b05b",
     "/assets/Iconos_Png/Logo_Claro_con_fondo.png": "bc915bf5d2afff412a3cf7efc0f92fed58925201",
     "/assets/Iconos_Png/Logo_Oscuro_con_fondo.png": "b6683a72445b41ba923880408cb51b806ecbe127",
+    "/assets/Iconos_Png/unsl(1).png": "2d4bdba4d4a7275262f297265a02651feb46b3da",
+    "/assets/Iconos_Png/unsl.png": "670af261de6f0ab0b58e130e6c714dd44fc8c3ab",
     "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-01.png": "27644f9a37432460f950c3160bbc4e74fea97dcf",
     "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-02.png": "eb13ece0d7bbfcdb730ce3f5e58644d0678be66f",
     "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-03.png": "9244fe07985eb3aa9b21125a0dfad8242ab5fb0b",
@@ -330,14 +334,14 @@
     "/assets/img/pexels-photo-10181438.jpeg": "26ba3c36c50ffd36b97e1177987fb7fade0e2ad6",
     "/assets/img/unsl-cannabis-05.png": "0a0988859b410aa0864d0fbbdbcc6ed0504aae3b",
     "/favicon.ico": "4f6b8a35e886ab5242809a3a50f47c70eadd92f7",
-    "/index.html": "3346a071537b786c608b23d38c41f311611e0fad",
+    "/index.html": "e13e54ad80ffb442b453fbd95f801c81173d140f",
+    "/main-5MTBL4MP.js": "9d40e2237c8f75ef800022ae68240146dc93c293",
     "/main-5WGCY7HH.css": "a4c3f97f2d96716f73b2b8b0c6ae0d232dcbf719",
-    "/main-QZBTLBFE.js": "91f38b9e92bf2e2f5be1dc1100b2454975dad270",
     "/manifest.webmanifest": "a46ab9f2ea22e5e958542f76332295f26586d997",
     "/media/Mulish-VariableFont_wght-SD34WLID.ttf": "e10d10b34bd6b9dac59176fa88ee2b063c6f5efa",
     "/polyfills-S3BTP7ME.js": "893d641030c187f109c667de1b0a73a03095fa3b",
     "/scripts-PYTNIP2N.js": "f97e24b7e3d54560f427f4c35aa000df829bf411",
-    "/styles-SXOQLVML.css": "e6c60e905415f1ea0a0065434a5a97a84d50dd5e"
+    "/styles-MP7X4VID.css": "e10bbc64eed5ce21db9854ba055e457308a19bc4"
   },
   "navigationUrls": [
     {

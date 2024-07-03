@@ -1,6 +1,6 @@
 <div class="flex justify-center px-2">
     <div class="max-w-screen-xl w-full">
-        <nav class="flex my-3 px-5   py-3 text-gray-700 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
+        <nav class="flex my-3 px-5 justify-between   py-3 text-gray-700 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
             aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                 <li class="inline-flex items-center">
@@ -35,7 +35,17 @@
                             }}</span>
                     </div>
                 </li>
+
             </ol>
+
+            <div class="flex items-center  dark:hidden  gap-1">
+                <img class="w-10" src="{{imageUrl[0]}}" alt="">
+                <img class="w-10" src="{{imageUrl[2]}}" alt="">
+            </div>
+            <div class="items-center hidden dark:flex gap-1">
+                <img class="w-10" src="{{imageUrl[1]}}" alt="">
+                <img class="w-8" src="{{imageUrl[3]}}" alt="">
+            </div>
         </nav>
     </div>
 </div>
