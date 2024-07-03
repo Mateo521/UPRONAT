@@ -38,3 +38,6 @@ ul{
     
    background-color: #7cac54;
 }
+*{
+    overflow-x:hidden;
+}
