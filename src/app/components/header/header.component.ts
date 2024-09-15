@@ -64,6 +64,8 @@ export class HeaderComponent {
   imgs: Logo[] = [
     { imageUrl: baseUrl + '7dark.png', description: 'Logo Dark' },
     { imageUrl: baseUrl + '8.png', description: 'Logo' },
-    { imageUrl: baseUrl + 'Flag_of_Argentina.svg', description: 'Flag AR' }
+    { imageUrl: baseUrl + 'Flag_of_Argentina.svg', description: 'Flag AR' },
+    {imageUrl: baseUrl + 'logo-unsl-2-1024x578.png', description: 'Logo UNSL Dark' },
+    {imageUrl: baseUrl + 'logo-unsl-negativo.png', description: 'Logo UNSL' },
   ];
 }

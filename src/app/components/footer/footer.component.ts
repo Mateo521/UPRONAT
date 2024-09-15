@@ -17,7 +17,7 @@ export class FooterComponent {
     {imageUrl: baseUrl + '7dark.png', description: 'Logo Dark' },
     {imageUrl: baseUrl + '8.png', description: 'Logo' },
     {imageUrl: baseUrl + 'logo-unsl-negativo2.png', description: 'Logo UNSL Dark' },
-    {imageUrl: baseUrl + 'logo-unsl-2-1024x578.png', description: 'Logo UNSL' },
+    {imageUrl: baseUrl + 'logo-unsl-1024x578.png', description: 'Logo UNSL' },
    ]
 
 
