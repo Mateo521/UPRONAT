@@ -41,7 +41,7 @@ export class AceitesEsencialesComponent implements AfterViewInit {
     {
       id: 1,
       title: 'Obtención de aceites esenciales e hidrolatos por destilación por arrastre de vapor (DAV)',
-      content: ['Tipo de material a procesar: Biomasa preferentemente fresca o congelada. <br> DAV escala laboratorio con capacidad para 250 gr de material vegetal fresco por ciclo. <br> DAV escala piloto con capacidad para 2500 gr de material vegetal fresco por ciclo.'],
+      content: ['Obtención de aceites esenciales e hidrolatos a partir de biomasa fresca o congelada a escalas laboratorio, banco y piloto.'],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -49,8 +49,8 @@ export class AceitesEsencialesComponent implements AfterViewInit {
     },
     {
       id: 2,
-      title: 'Obtención de aceites esenciales por extracción con <b>CO   <sub>2<sub/></b>  supercrítico (SFE)',
-      content: ['Tipo de material a procesar: Material vegetal seco y molido. <br> Escala laboratorio capacidad hasta 200 gr de material vegetal por ciclo.'],
+      title: 'Obtención de aceites esenciales por extracción con <b>CO<sub>2<sub/></b>  supercrítico (SFE)',
+      content: ['Obtención de aceites esenciales e hidrolatos a partir de biomasa seca y molida a escalas laboratorio y banco.'],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -58,7 +58,7 @@ export class AceitesEsencialesComponent implements AfterViewInit {
     },
     {
       id: 3,
-      title: 'Caracterización de aceites esenciales, hidrolatos y extractos aromáticos por GC-MS (Cromatografía gaseosa acoplada a Espectrometría de masas de impacto electrónico) y GC-FID (Cromatografía gaseosa con detección de ionización de llama).',
+      title: 'Caracterización de aceites esenciales, hidrolatos y extractos aromáticos por GC-MS (Cromatografía gaseosa acoplada a espectrometría de masas de impacto electrónico) y GC-FID (Cromatografía gaseosa con detección de ionización de llama).',
       content: [''],
       links: [
         { text: '', href: '' },

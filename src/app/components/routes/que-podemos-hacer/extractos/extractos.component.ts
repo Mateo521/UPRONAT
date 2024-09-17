@@ -44,8 +44,8 @@ export class ExtractosComponent  implements AfterViewInit {
   accordionSections: AccordionSection[] = [
     {
       id: 1,
-      title: 'Preparación de extractos a partir de biomasa vegetal, residuos agroindustriales y cultivos microbianos por extracción con solventes verdes y fluidos supercríticos. (descripción, ventajas y aplicaciones de SCF) ',
-      content: ['La técnica de extracción de productos naturales mediante fluidos supercríticos implica la obtención de aceites esenciales, aceites fijos y otros extractos a partir de biomasa utilizando dióxido de carbono supercrítico como solvente, bajo condiciones de presión y temperatura controladas. Este método garantiza la obtención de extractos de alta calidad, libres de residuos de solventes y sin riesgo de deterioro térmico u oxidativo. Su versatilidad lo hace aplicable a una amplia gama de materiales vegetales y microbianos, siendo especialmente adecuado para la producción de bioproductos en la industria alimentaria, cosmética y farmacéutica. '],
+      title: 'Preparación de extractos a partir de biomasa vegetal, residuos agroindustriales y cultivos microbianos por extracción con solventes verdes y fluidos supercríticos.',
+      content: [' '],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -72,7 +72,7 @@ export class ExtractosComponent  implements AfterViewInit {
     {
       id: 4,
       title: 'Extracciones y separaciones con fluidos supercríticos',
-      content: ['Mediante la extracción con dióxido de carbono supercrítico, es posible llevar a cabo la purificación, fraccionamiento, aislamiento y secado de componentes presentes en materiales naturales o sintéticos. Esta técnica permite una extracción selectiva de los componentes deseados o no deseados en un proceso semicontinuo, asegurando la obtención de muestras libres de solventes y sin riesgo de deterioro térmico u oxidativo.'],
+      content: ['Mediante la extracción con dióxido de carbono supercrítico, es posible llevar a cabo la purificación, fraccionamiento, aislamiento y secado de componentes presentes en materiales naturales o sintéticos. Esta técnica permite una extracción selectiva de los componentes deseados o no deseados en un proceso semicontinuo, asegurando la obtención de muestras libres de solventes y sin riesgo de deterioro térmico u oxidativo. <br>  Su versatilidad lo hace aplicable a una amplia gama de materiales vegetales y microbianos, siendo especialmente adecuado para la producción de bioproductos en la industria alimentaria, cosmética y farmacéutica.'],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }

@@ -42,7 +42,7 @@ export class CannabisComponent  implements AfterViewInit {
     {
       id: 1,
       title: 'Preparación de resinas y extractos por maceración etanólica y fluidos supercríticos',
-      content: ['Obtención de resinas de espectro completo (full spectrum) y extractos de elevada pureza, calidad e inocuidad a partir de material vegetal (inflorescencias) secas. Extractor líquido escala piloto y extractor de CO<sub>2</sub> supercrítico a escala laboratorio con capacidad para 1000 gr y 200 gr de material vegetal seco por ciclo respectivamente.  '],
+      content: ['Obtención de resinas de espectro completo (<i>full spectrum</i>) y extractos de elevada pureza, calidad e inocuidad a partir de material vegetal (inflorescencias) secas. Extractor líquido escala piloto y extractor de CO<sub>2</sub> supercrítico a escala laboratorio/banco  '],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -51,7 +51,7 @@ export class CannabisComponent  implements AfterViewInit {
     {
       id: 2,
       title: 'Obtención de aceites esenciales e hidrolatos',
-      content: ['Destilación por arrastre de vapor de agua de inflorescencias y otros materiales frescos para la obtención de aceites esenciales y aguas aromáticas de fragancias exclusivas y una amplia gama de aplicaciones. Escalas: laboratorio 250 g de material fresco '],
+      content: ['Destilación por arrastre de vapor de agua de inflorescencias y otros materiales frescos para la obtención de aceites esenciales y aguas aromáticas de fragancias exclusivas y una amplia gama de aplicaciones. Escalas: laboratorio y piloto '],
       links: [
         { text: '', href: '' },
         { text: '', href: '' }
@@ -68,7 +68,7 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 4,
-      title: 'Aislamiento y purificación de fitocannabinoides neutros y ácidos. Obtención de CBD y THC de alta pureza (isolate). Remoción de THC para la obtención de extractos de amplio espectro (broad spectrum).',
+      title: 'Aislamiento y purificación de fitocannabinoides neutros y ácidos. Obtención de CBD y THC de alta pureza. Remoción de THC para la obtención de extractos de amplio espectro (<i>broad spectrum</i>).',
       content: [''],
       links: [
         { text: '', href: '' },
@@ -130,15 +130,6 @@ export class CannabisComponent  implements AfterViewInit {
       ]
     },
     {
-      id: 11,
-      title: 'Detección de virus: Virus latente del lúpulo (HLVd), virus de la clorosis de la lechuga (LCV), virus críptico del Cannabis (CanCV), virus Mosaico del tabaco (TMV)',
-      content: [''],
-      links: [
-        { text: '', href: '' },
-        { text: '', href: '' }
-      ]
-    },
-    {
       id: 12,
       title: 'Genotipado por microsatélites',
       content: [''],
@@ -167,7 +158,7 @@ export class CannabisComponent  implements AfterViewInit {
     },
     {
       id: 15,
-      title: 'Desarrollo de protocolos ad hoc de micropropagación para genéticas específicas',
+      title: 'Desarrollo de protocolos <i>ad hoc</i> de micropropagación para genéticas específicas',
       content: [''],
       links: [
         { text: '', href: '' },

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1719606629461,
+  "timestamp": 1720014218803,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-2ZXR2BQM.js",
         "/main-5WGCY7HH.css",
+        "/main-N2W65TIC.js",
         "/manifest.webmanifest",
         "/polyfills-S3BTP7ME.js",
         "/scripts-PYTNIP2N.js",
-        "/styles-SRCEGLTU.css"
+        "/styles-MP7X4VID.css"
       ],
       "patterns": []
     },
@@ -34,6 +34,8 @@
         "/assets/Iconos_Png/IconoOscuro.png",
         "/assets/Iconos_Png/Logo_Claro_con_fondo.png",
         "/assets/Iconos_Png/Logo_Oscuro_con_fondo.png",
+        "/assets/Iconos_Png/unsl(1).png",
+        "/assets/Iconos_Png/unsl.png",
         "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-01.png",
         "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-02.png",
         "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-03.png",
@@ -144,6 +146,7 @@
         "/assets/icons/1-64.png",
         "/assets/icons/1-72.png",
         "/assets/icons/1-96.png",
+        "/assets/img/Asesoramiento y análisis bioinformático de datos proteómicos.docx",
         "/assets/img/Screenshot 2024-05-12 123137.png",
         "/assets/img/carrusel/img (1).jpeg",
         "/assets/img/carrusel/img (3).jpeg",
@@ -171,6 +174,7 @@
         "/assets/img/carrusel/img(7).jpeg",
         "/assets/img/carrusel/img(8).jpeg",
         "/assets/img/carrusel/img(9).jpeg",
+        "/assets/img/carrusel/img.jpeg",
         "/assets/img/carrusel/pexels-photo-10181438.jpeg",
         "/assets/img/carrusel/unsl-cannabis-05.png",
         "/assets/img/img(26).jpg",
@@ -187,6 +191,8 @@
     "/assets/Iconos_Png/IconoOscuro.png": "0e3c23c6c4e995368cf89d495b1f78391289b05b",
     "/assets/Iconos_Png/Logo_Claro_con_fondo.png": "bc915bf5d2afff412a3cf7efc0f92fed58925201",
     "/assets/Iconos_Png/Logo_Oscuro_con_fondo.png": "b6683a72445b41ba923880408cb51b806ecbe127",
+    "/assets/Iconos_Png/unsl(1).png": "2d4bdba4d4a7275262f297265a02651feb46b3da",
+    "/assets/Iconos_Png/unsl.png": "670af261de6f0ab0b58e130e6c714dd44fc8c3ab",
     "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-01.png": "27644f9a37432460f950c3160bbc4e74fea97dcf",
     "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-02.png": "eb13ece0d7bbfcdb730ce3f5e58644d0678be66f",
     "/assets/Logos_Png/UPRONATLogoDefinitivoCurvas-03.png": "9244fe07985eb3aa9b21125a0dfad8242ab5fb0b",
@@ -297,6 +303,7 @@
     "/assets/icons/1-64.png": "31c1780031e82ff58e31c5812bfdcda7269f82fd",
     "/assets/icons/1-72.png": "c93985c85388bc372ea69bbf80ebcb1bf369b68c",
     "/assets/icons/1-96.png": "484962e53815ec0a22cc313fdd572db844144f66",
+    "/assets/img/Asesoramiento y análisis bioinformático de datos proteómicos.docx": "ee3f182426982aa736d9fa5f558d147f5a1dfd60",
     "/assets/img/Screenshot 2024-05-12 123137.png": "b8ca24e21ce5535274e88c999d616aff49dfb37c",
     "/assets/img/carrusel/img (1).jpeg": "d4fc77b3f66db620a4e6faf49b1804d8ddc1f279",
     "/assets/img/carrusel/img (3).jpeg": "3e1dbe1e38815a063686a3d754a06fbd555665f1",
@@ -324,20 +331,21 @@
     "/assets/img/carrusel/img(7).jpeg": "05b9c4fcc7dbe69d7775b7337bfd288bfb2835da",
     "/assets/img/carrusel/img(8).jpeg": "3e1dbe1e38815a063686a3d754a06fbd555665f1",
     "/assets/img/carrusel/img(9).jpeg": "c5d234f50681866a6c8410cfec20c082d4aae5a7",
+    "/assets/img/carrusel/img.jpeg": "4a0efc5ff9f254adcb02271ce0427a27e0c7a0d0",
     "/assets/img/carrusel/pexels-photo-10181438.jpeg": "26ba3c36c50ffd36b97e1177987fb7fade0e2ad6",
     "/assets/img/carrusel/unsl-cannabis-05.png": "0a0988859b410aa0864d0fbbdbcc6ed0504aae3b",
     "/assets/img/img(26).jpg": "c88c693c4c60401d1512c7b4359e42f2a721896b",
     "/assets/img/pexels-photo-10181438.jpeg": "26ba3c36c50ffd36b97e1177987fb7fade0e2ad6",
     "/assets/img/unsl-cannabis-05.png": "0a0988859b410aa0864d0fbbdbcc6ed0504aae3b",
     "/favicon.ico": "4f6b8a35e886ab5242809a3a50f47c70eadd92f7",
-    "/index.html": "b4078e6eaa79bc9d15750213d361161de4393f1e",
-    "/main-2ZXR2BQM.js": "e8aed262434f55bef04da074848f8c063f95ccac",
+    "/index.html": "0c78490f3abb1dd5e844712b9408d0649a805907",
     "/main-5WGCY7HH.css": "a4c3f97f2d96716f73b2b8b0c6ae0d232dcbf719",
+    "/main-N2W65TIC.js": "2b4175062f5dac147e7b1406d509549a30c68672",
     "/manifest.webmanifest": "a46ab9f2ea22e5e958542f76332295f26586d997",
     "/media/Mulish-VariableFont_wght-SD34WLID.ttf": "e10d10b34bd6b9dac59176fa88ee2b063c6f5efa",
     "/polyfills-S3BTP7ME.js": "893d641030c187f109c667de1b0a73a03095fa3b",
     "/scripts-PYTNIP2N.js": "f97e24b7e3d54560f427f4c35aa000df829bf411",
-    "/styles-SRCEGLTU.css": "b870f9414c1d7a159900f5eb7d47ebaff39b146a"
+    "/styles-MP7X4VID.css": "e10bbc64eed5ce21db9854ba055e457308a19bc4"
   },
   "navigationUrls": [
     {

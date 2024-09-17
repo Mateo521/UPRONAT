@@ -14,8 +14,18 @@ export class ImageService {
     'assets/img/carrusel/img(11).jpeg',
     'assets/img/carrusel/img(6).jpeg',
     'assets/img/carrusel/img(21).jpeg',
-    'assets/img/carrusel/img(16).jpeg'
+    'assets/img/carrusel/img(16).jpeg',
+    'assets/img/carrusel/img.jpeg'
   ];
+
+  getImagesbreadcrumb(): string[] {
+    return [
+      'assets/Iconos_Png/IconoClaro.png',
+      'assets/Iconos_Png/IconoOscuro.png',
+      'assets/Iconos_Png/unsl.png',
+      'assets/Iconos_Png/unsl(1).png',
+    ];
+  }
 
   private logo = { img: 'assets/Logos_Svg/1.png' }; // 
 

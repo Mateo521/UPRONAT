@@ -29,7 +29,7 @@ export class VinosComponent  implements AfterViewInit {
 
   logoImg!: string;
   imageUrl!: string;
-  title: string = 'Analizamos vinos mediante una tecnología única en Sudamérica (<sup class="pl-1">1</sup>H-NMR Wine screening) que permite certificar variedad, denominación de origen, terroir, fraude o alteraciones. ';
+  title: string = 'Analizamos vinos mediante una tecnología única en Sudamérica (<sup class="pl-1">1</sup>H-NMR <i>Wine screening</i>) que permite certificar variedad, denominación de origen, <i>terroir</i>, fraude o alteraciones. ';
   url:string = 'Vinos';
   description:string = 'Qué podemos hacer';
   constructor(private imageService: ImageService) {}
@@ -71,7 +71,7 @@ export class VinosComponent  implements AfterViewInit {
     },
     {
       id: 3,
-      title: 'Determinación de terroir',
+      title: 'Determinación de <i>terroir</i>',
       content: [''],
       links: [
         { text: '', href: '' },

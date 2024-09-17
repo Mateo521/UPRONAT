@@ -66,10 +66,10 @@
     </div>
   </div>
   <div id="mega-menu-full-dropdown" [ngClass]="{'hidden': !isSubMenuOpen, 'block': isSubMenuOpen}"
-    class="mt-1  border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y dark:bg-gray-800 dark:border-gray-600 ">
+    class="mt-1 overflow-y-hidden  border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y dark:bg-gray-800 dark:border-gray-600 ">
     <div
-      class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:px-6 overflow-y-scroll"
-      style="height: 27vh;">
+      class="flex justify-center max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white  md:px-6 overflow-y-scroll"
+      style="height: 50vh;">
       <ul>
         <li>
           <a routerLink="/es/capacidades-y-servicios/extractos" (click)="closeMenu()"
@@ -105,8 +105,6 @@
               vegetal y microbiana</div>
           </a>
         </li>
-      </ul>
-      <ul>
         <li>
           <a routerLink="/es/capacidades-y-servicios/aditivos-alimentarios-y-nutraceuticos" (click)="closeMenu()"
             class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
@@ -116,7 +114,7 @@
         <li>
           <a routerLink="/es/capacidades-y-servicios/vinos" (click)="closeMenu()"
             class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-            <div class="font-semibold">Análisis de vinos mediante <sup class="pl-1"> 1</sup> H-NMR Wine screening</div>
+            <div class="font-semibold">Análisis de vinos mediante <sup class="pl-1">1</sup>H-NMR Wine screening</div>
           </a>
         </li>
         <li>
@@ -136,6 +134,13 @@
           <a routerLink="/es/capacidades-y-servicios/bioactividad-de-sustancias-puras-y-mezclas-complejas"
             (click)="closeMenu()" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
             <div class="font-semibold">Análisis de bioactividad y toxicidad de sustancias puras y mezclas complejas
+            </div>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/es/capacidades-y-servicios/asesoramiento-y-analisis-bioinformatico-de-datos-proteomicos"
+            (click)="closeMenu()" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+            <div class="font-semibold">Asesoramiento y análisis bioinformático de datos proteómicos
             </div>
           </a>
         </li>

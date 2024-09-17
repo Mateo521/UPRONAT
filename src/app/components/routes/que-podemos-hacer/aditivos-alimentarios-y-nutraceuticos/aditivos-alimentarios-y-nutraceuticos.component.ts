@@ -41,7 +41,7 @@ export class AditivosAlimentariosYNutraceuticosComponent implements AfterViewIni
   accordionSections: AccordionSection[] = [
     {
       id: 1,
-      title: 'Obtención y caracterización química de extractos a partir de fuentes naturales (plantas, biomasa residual, cultivos microbianos y de algas, etc.)',
+      title: 'Obtención y caracterización química de extractos a partir de fuentes naturales (plantas, biomasa residual, cultivos microbianos, etc.)',
       content: [''],
       links: [
         { text: '', href: '' },
@@ -50,7 +50,7 @@ export class AditivosAlimentariosYNutraceuticosComponent implements AfterViewIni
     },
     {
       id: 2,
-      title: 'Extracción y producción in vitro de colorantes naturales',
+      title: 'Extracción y producción <i>in vitro</i> de colorantes naturales',
       content: [''],
       links: [
         { text: '', href: '' },

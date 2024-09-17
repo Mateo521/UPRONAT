@@ -38,7 +38,8 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { QuePodemosHacerComponent } from './components/routes/que-podemos-hacer/que-podemos-hacer.component';
 import { EquipamientoComponent } from './components/home/equipamiento/equipamiento.component';
 import { LanguageSwitcherComponent } from './language-switcher/language-switcher.component';
-import { ServiceWorkerModule } from '@angular/service-worker'; // Importa CommonModule
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { AsesoramientoYAnalisisBioinformaticoDeDatosProteomicosComponent } from './components/routes/que-podemos-hacer/asesoramiento-y-analisis-bioinformatico-de-datos-proteomicos/asesoramiento-y-analisis-bioinformatico-de-datos-proteomicos.component'; // Importa CommonModule
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
@@ -74,6 +75,7 @@ import { ServiceWorkerModule } from '@angular/service-worker'; // Importa Common
     QuePodemosHacerComponent,
     EquipamientoComponent,
     LanguageSwitcherComponent,
+    AsesoramientoYAnalisisBioinformaticoDeDatosProteomicosComponent,
   ],
   imports: [
     BrowserModule,
