@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1720014218803,
+  "timestamp": 1726539887111,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
+        "/main-2EVHNHAN.js",
         "/main-5WGCY7HH.css",
-        "/main-N2W65TIC.js",
         "/manifest.webmanifest",
         "/polyfills-S3BTP7ME.js",
         "/scripts-PYTNIP2N.js",
-        "/styles-MP7X4VID.css"
+        "/styles-K6LQA47B.css"
       ],
       "patterns": []
     },
@@ -63,7 +63,9 @@
         "/assets/Logos_Svg/9.svg",
         "/assets/Logos_Svg/Flag_of_Argentina.svg",
         "/assets/Logos_Svg/[removal.ai]_009e98bc-17e7-4ed3-ad9a-3fee598f667c-1.png",
+        "/assets/Logos_Svg/logo-unsl-1024x578.png",
         "/assets/Logos_Svg/logo-unsl-2-1024x578.png",
+        "/assets/Logos_Svg/logo-unsl-negativo.png",
         "/assets/Logos_Svg/logo-unsl-negativo2.png",
         "/assets/files/VinosporRMN.docx",
         "/assets/files/WineProfilingBrochure.PDF",
@@ -220,7 +222,9 @@
     "/assets/Logos_Svg/9.svg": "3512c05b71c21181839a66b502e8b8614fe80432",
     "/assets/Logos_Svg/Flag_of_Argentina.svg": "1a45164128dde52374de2252a388b86ce224e887",
     "/assets/Logos_Svg/[removal.ai]_009e98bc-17e7-4ed3-ad9a-3fee598f667c-1.png": "fbfd348e232fc46df6cb6ef2a04590b9ea095072",
-    "/assets/Logos_Svg/logo-unsl-2-1024x578.png": "b99e6b736eb49ee0cad20359b52332eba851e3bd",
+    "/assets/Logos_Svg/logo-unsl-1024x578.png": "377ddb416b74c879e5b623527ff53714be1782fc",
+    "/assets/Logos_Svg/logo-unsl-2-1024x578.png": "3e849d401b7ed74e5968e52f0fac81b39fd3f806",
+    "/assets/Logos_Svg/logo-unsl-negativo.png": "4542d9f6b413405adddc690e8d752ad939ffc3b5",
     "/assets/Logos_Svg/logo-unsl-negativo2.png": "a7db302625c69962721265f0d50aa5e13379399e",
     "/assets/files/VinosporRMN.docx": "5251583a7cf210693eff136c0844a54047a3ef52",
     "/assets/files/WineProfilingBrochure.PDF": "7575dbc11debff83e48fe0f6d89a044b092e54f8",
@@ -338,14 +342,14 @@
     "/assets/img/pexels-photo-10181438.jpeg": "26ba3c36c50ffd36b97e1177987fb7fade0e2ad6",
     "/assets/img/unsl-cannabis-05.png": "0a0988859b410aa0864d0fbbdbcc6ed0504aae3b",
     "/favicon.ico": "4f6b8a35e886ab5242809a3a50f47c70eadd92f7",
-    "/index.html": "0c78490f3abb1dd5e844712b9408d0649a805907",
+    "/index.html": "f20caa27ee41e164b154e2d91eeb25cec703f7ce",
+    "/main-2EVHNHAN.js": "7db12935cb50f88d2404c0a03d9267c39bce6170",
     "/main-5WGCY7HH.css": "a4c3f97f2d96716f73b2b8b0c6ae0d232dcbf719",
-    "/main-N2W65TIC.js": "2b4175062f5dac147e7b1406d509549a30c68672",
     "/manifest.webmanifest": "a46ab9f2ea22e5e958542f76332295f26586d997",
     "/media/Mulish-VariableFont_wght-SD34WLID.ttf": "e10d10b34bd6b9dac59176fa88ee2b063c6f5efa",
     "/polyfills-S3BTP7ME.js": "893d641030c187f109c667de1b0a73a03095fa3b",
     "/scripts-PYTNIP2N.js": "f97e24b7e3d54560f427f4c35aa000df829bf411",
-    "/styles-MP7X4VID.css": "e10bbc64eed5ce21db9854ba055e457308a19bc4"
+    "/styles-K6LQA47B.css": "54761804073fee0ca44947c33e294b4035ba74f5"
   },
   "navigationUrls": [
     {
