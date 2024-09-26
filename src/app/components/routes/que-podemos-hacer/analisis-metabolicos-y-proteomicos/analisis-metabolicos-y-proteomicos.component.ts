@@ -19,7 +19,7 @@ interface AccordionSection {
 export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
   logoImg!: string;
   imageUrl!: string;
-  title: string = 'Podemos analizar la presencia de metabolitos especializados por distintas técnicas como Resonancia Magnética Nuclear (RMN), Espectrometría de Masas (EM) y Cromatografía Líquida de Alta Eficiencia (HPLC)';
+  title: string = 'Podemos analizar la presencia de metabolitos especializados y compuestos de interés por distintas técnicas como Resonancia Magnética Nuclear (RMN), Espectrometría de Masas (EM) y Cromatografía Líquida de Alta Eficiencia (HPLC)';
   url:string = 'Análisis metabolómicos por técnicas espectrométricas';
   description:string = 'Qué podemos hacer';
   constructor(private imageService: ImageService) {}
