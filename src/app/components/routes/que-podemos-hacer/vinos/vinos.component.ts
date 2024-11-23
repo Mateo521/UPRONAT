@@ -2,6 +2,7 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ImageService } from '../../../../image.service';
 import { initFlowbite } from 'flowbite';
 import AOS from 'aos';
+import { Title, Meta } from '@angular/platform-browser';
 interface AccordionSection {
   id: number;
   title: string;
@@ -32,7 +33,11 @@ export class VinosComponent  implements AfterViewInit {
   title: string = 'Analizamos vinos mediante una tecnología única en Sudamérica (<sup class="pl-1">1</sup>H-NMR <i>Wine screening</i>) que permite certificar variedad, denominación de origen, <i>terroir</i>, fraude o alteraciones. ';
   url:string = 'Vinos';
   description:string = 'Qué podemos hacer';
-  constructor(private imageService: ImageService) {}
+  constructor(
+    private imageService: ImageService,
+    private titleService: Title,
+    private metaService: Meta
+  ) {}
 
 
   
@@ -40,6 +45,14 @@ export class VinosComponent  implements AfterViewInit {
   ngOnInit(): void {
     this.imageUrl = this.imageService.getImage(0);
     this.logoImg = this.imageService.getLogo();
+
+    this.titleService.setTitle(this.title);
+  
+ 
+    this.metaService.updateTag({
+      name: 'description',
+      content: this.title 
+    });
   }
   ngAfterViewInit(): void {
     this.initializeScripts();

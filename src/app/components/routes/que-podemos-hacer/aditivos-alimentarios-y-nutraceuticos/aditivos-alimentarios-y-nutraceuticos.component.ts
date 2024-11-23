@@ -1,6 +1,10 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ImageService } from '../../../../image.service';
 import { initFlowbite } from 'flowbite';
+
+import { Title, Meta } from '@angular/platform-browser';
+
+
 import AOS from 'aos';
 interface AccordionSection {
   id: number;
@@ -22,12 +26,25 @@ export class AditivosAlimentariosYNutraceuticosComponent implements AfterViewIni
   title: string = 'Extraemos, purificamos y caracterizamos bioactivos a partir de biomasa vegetal y microbiana. Recuperamos ingredientes a partir de subproductos agroalimenticios.';
   url:string = 'Aditivos alimentarios y nutraceúticos';
   description:string = 'Qué podemos hacer';
-  constructor(private imageService: ImageService) {}
+  constructor(
+    private imageService: ImageService,
+    private titleService: Title,
+    private metaService: Meta
+  ) {}
 
   ngOnInit(): void {
        // imageUrl!: string;
        this.imageUrl = this.imageService.getImage(6); 
     this.logoImg = this.imageService.getLogo();
+
+
+    this.titleService.setTitle(this.title);
+  
+ 
+    this.metaService.updateTag({
+      name: 'description',
+      content: this.title 
+    });
   }
   ngAfterViewInit(): void {
     this.initializeScripts();

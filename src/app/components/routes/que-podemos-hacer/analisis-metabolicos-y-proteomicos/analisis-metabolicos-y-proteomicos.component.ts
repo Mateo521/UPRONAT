@@ -2,6 +2,7 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ImageService } from '../../../../image.service';
 import { initFlowbite } from 'flowbite';
 import AOS from 'aos';
+import { Title, Meta } from '@angular/platform-browser';
 interface AccordionSection {
   id: number;
   title: string;
@@ -22,12 +23,25 @@ export class AnalisisMetabolicosYProteomicosComponent implements AfterViewInit {
   title: string = 'Podemos analizar la presencia de metabolitos especializados y compuestos de interés por distintas técnicas como Resonancia Magnética Nuclear (RMN), Espectrometría de Masas (EM) y Cromatografía Líquida de Alta Eficiencia (HPLC)';
   url:string = 'Análisis metabolómicos por técnicas espectrométricas';
   description:string = 'Qué podemos hacer';
-  constructor(private imageService: ImageService) {}
+  constructor(
+    private imageService: ImageService,
+    private titleService: Title,
+    private metaService: Meta
+  ) {}
 
   ngOnInit(): void {
      // imageUrl!: string;
      this.imageUrl = this.imageService.getImage(7); 
     this.logoImg = this.imageService.getLogo();
+
+
+    this.titleService.setTitle(this.title);
+  
+ 
+    this.metaService.updateTag({
+      name: 'description',
+      content: this.title 
+    });
   }
   ngAfterViewInit(): void {
     this.initializeScripts();
